@@ -1,4 +1,4 @@
-export const SliderData = [
+export const ProjectData = [
   {
     image: "/tweeterdemo.gif",
     title: "Tweeter",
