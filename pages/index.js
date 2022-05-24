@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Nav from "../components/Nav.";
+import Nav from "../components/Nav";
 import { motion } from "framer-motion";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
@@ -14,9 +14,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function Home() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+
 
   return (
     <motion.div
@@ -54,44 +52,13 @@ export default function Home() {
                    <b> Junior Full Stack Developer</b> from <b>Toronto, Canada</b>.
                   <br></br>
                   <br></br>
-                  {/* <br></br> */}
                   <div className={styles.btnrow}>
                     <div className={styles.homebtns}>
-                      <Button className={styles.homebtn} onClick={handleOpen}>
+                      <Button className={styles.homebtn}>
                         <a>PROJECTS</a>
                       </Button>
-                      <Modal
-                        aria-labelledby="transition-modal-title"
-                        aria-describedby="transition-modal-description"
-                        open={open}
-                        onClose={handleClose}
-                        closeAfterTransition
-                        BackdropComponent={Backdrop}
-                        BackdropProps={{
-                          timeout: 500,
-                        }}
-                      >
-                        <Fade in={open}>
-                          <Box sx={style}>
-                            <Typography
-                              id="transition-modal-title"
-                              variant="h6"
-                              component="h2"
-                            >
-                              <p>
-                                <h1>Projects</h1>
-                              </p>
-                            </Typography>
-                            <Typography
-                              id="transition-modal-description"
-                              sx={{ mt: 2 }}
-                            >
-                              Duis mollis, est non commodo luctus, nisi erat
-                              porttitor ligula.
-                            </Typography>
-                          </Box>
-                        </Fade>
-                      </Modal>
+                      
+
                       <Button className={styles.homebtn}>
                         <a>ABOUT ME</a>
                       </Button>
