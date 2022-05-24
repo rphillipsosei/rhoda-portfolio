@@ -1,4 +1,13 @@
-export const ProjectData = [
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
+import styles from '../styles/Projects.module.css'
+
+
+const data = [
   {
     image: "/tweeterdemo.gif",
     title: "Tweeter",
@@ -43,3 +52,32 @@ export const ProjectData = [
     id: "portfolio",
   },
 ];
+
+export default function ProjectCard() {
+
+  return (
+    <div className={styles.projectsbox}>
+   {data.map((project) => {
+<Card className={styles.cardcontainer} sx={{ maxWidth: 345, maxHeight: 450 }}>
+          <Typography align="center" gutterBottom variant="h5" component="div">
+          {project.title}
+        </Typography>
+        <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image={project.image}
+      />
+      <CardContent>
+    
+        <Typography variant="body2" color="text.secondary">
+          {project.description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">VIEW SOURCE CODE</Button>
+        <Button size="small">SEE DEMO</Button>
+      </CardActions>
+    </Card>
+    })}</div>
+  )}

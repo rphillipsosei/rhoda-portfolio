@@ -5,6 +5,8 @@ import styles from "../styles/ImageSlider.module.css";
 import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 import { motion } from "framer-motion";
 import Modal from "@mui/material"
+
+
 const demo = {
   borderRadius: "10px",
 };
