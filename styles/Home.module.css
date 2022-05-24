@@ -1,133 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Darker+Grotesque:wght@500&family=Orbitron:wght@500&family=Quicksand:wght@500&family=Syncopate&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Darker+Grotesque:wght@500&family=Orbitron:wght@500&family=Quicksand:wght@500&family=Syncopate&display=swap");
 
 .container {
   height: 100vh;
   /* border: 3px solid blue; */
+
 }
 
 .iconcontainer {
   width: 100%;
   border-bottom: 3px solid white;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   height: 70px;
   align-items: center;
-margin-bottom: 0rem;
-
-
- 
+  margin-bottom: 0rem;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .navcontents {
-  font-size: 50px;
- 
+  font-size: 30px;
+
 }
 
 .homeicons {
   font-size: 30px;
   color: white;
+  cursor: pointer
 }
 
 .homecontents {
+  /* background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1600); */
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 93%;
   display: flex;
   align-items: center;
-  display: flex;
-
-
+  justify-content: center;
+  /* background-color: #d2b48c; */
+  /* background-image: url("https://www.transparenttextures.com/patterns/subtle-zebra-3d.png"); */
+  /* border: 3px solid hotpink; */
 }
-.leftsidehome {
+
+.textimage {
+  display: flex;
+  justify-content: center;
+}
+.rightsidehome {
   margin-top: 2rem;
-  height: 500px;
+  height: 550px;
   display: flex;
   align-items: flex-end;
-  justify-content: center;
-  /* border: 3px solid purple; */
+  border-bottom-right-radius: 20px;
+  /* justify-content: flex-end; */
+  /* border-right: 3px solid white; */
+  border-bottom: 3px solid white;
+  /* border-top: 3px solid white; */
   font-family: "Darker Grotesque", sans-serif;
-  color: white;
-  font-size: 30px;
-}
-
-
-.leftsidehome p {
- margin-bottom: 10rem;
+  /* padding-left: 4rem; */
+  color: black;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
 
 }
 
-.leftsidehome h1 {
-
-  text-align: center;
- 
- }
-
-
-.rightsidehome {
-  height: 500px;
-
+.leftsidehome {
+  height: 550px;
   display: flex;
   align-items: center;
-  /* border-top: 3px solid white;
+  /* border-left: 3px solid white; */
   border-bottom: 3px solid white;
-  border-right: 3px solid white; */
+  /* border-radius: 10px; */
+  /* border-top: 3px solid white; */
+  border-bottom-left-radius: 20px;
+  /* padding-right: 2rem; */
   margin-top: 2rem;
   font-family: "Quicksand", sans-serif;
   color: white;
   font-size: 30px;
-  padding: 2rem;
+  text-align: end;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-
+.textcontrol {
+  /* border: 3px solid black; */
+  display: flex;
+  align-items: center;
+  width: 420px;
+  height: 450px;
+  /* margin-right: 4rem; */
+}
+.rightsidehome h1 {
+  font-size: 32px;
+}
 
 .rightcontents {
-  text-align: center;
+  text-align: end;
 }
 
 .homebtn {
   border-radius: 10px;
-  font-size: 20px;
-  border: 3px solid white;
+  font-size: 15px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
   color: white;
-  width: 150px;
+  width: 120px;
   display: flex;
   justify-content: center;
+
 }
 
 .homebtn:hover {
-  color: tan;
-  background-color: white
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  /* color: tan; */
+  /* background-color: white */
 }
 
- .btnrow {
-/* border: 3px solid blue; */
-width: 100%;
-display: flex;
-justify-content: center;
-font-size: 15px;
-cursor: pointer;
- }
+.btnrow {
+  /* border: 3px solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+  cursor: pointer;
+}
 
- .homebtns {
-   /* border: 3px solid white; */
-   width: 30%;
-   display: flex;
-   justify-content: space-between;
- }
+.homebtns {
+  /* border: 3px solid slateblue; */
+  width: 255px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .imgcontainer {
-  width: 500px;
-  border: 2px solid white;
-  outline-offset: 1.5rem;
-outline: 2px solid white;
-border-radius: 15px;
-}
-
-.leftsidecontents{
-
+  width: 450px;
+  /* border: 2px solid white; */
+  outline-offset: 1rem;
+  /* outline: 2px solid white; */
+  /* margin-right: 1rem; */
+  margin-bottom: 2rem;
 }
 
 .gridcontainer {
   height: 100%;
-  color: 3px solid orange
+  color: 3px solid orange;
 }
-

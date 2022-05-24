@@ -10,13 +10,13 @@ export default function Navbar() {
   return (
 <div className={styles.iconcontainer}>
 <Breadcrumbs className={styles.navcontents}aria-label="breadcrumb">
-  <Link underline="hover" color="inherit" href="/">
+  <Link underline="hover" color="inherit" href="www.linkedin.com/in/rphillipsosei">
   <AiFillLinkedin className={styles.homeicons}/>
   </Link>
   <Link
     underline="hover"
     color="inherit"
-    href="/material-ui/getting-started/installation/"
+    href="www.github.com/rphillipsosei"
   >
   <AiFillGithub className={styles.homeicons} />
   </Link>

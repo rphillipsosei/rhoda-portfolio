@@ -1,12 +1,14 @@
 html,
 body {
   width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
   margin: 0;
   font-family: "Quicksand", sans-serif;
   background-color: tan;
   background-color: #b59e77;
-  background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+  background-image: url(/stars.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
  
     }
 
