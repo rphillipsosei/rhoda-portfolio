@@ -8,12 +8,12 @@ export default function Home() {
 
 
   return (
-    <div className={styles.aboutcontainer}>
+    <div className={styles.aboutcontainer} id="about">
         <div className={styles.aboutbox}>
 <Grid container >
   <Grid item lg={7} className={styles.bio}>
   <div className={styles.biotext}><Item>
-  <p>
+  <div>
           <br></br>
           <b>
      Thanks for stopping by!
@@ -38,12 +38,12 @@ export default function Home() {
           sewing, a good deadlift, and cat videos 😊
           <br></br>
           <br></br>
-        </p>
+        </div>
       </Item></div>
   </Grid>
   <Grid item lg={5} className={styles.skills}>
       <div className={styles.skillstext}><Item>
-      <p>
+      <div>
           <h2 align="center">
             <u>SKILLS</u>
           </h2>
@@ -61,7 +61,7 @@ export default function Home() {
           <b>Auxiliary Technologies</b>
           <br></br>
           Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
-        </p>
+        </div>
           </Item></div>
     
   </Grid>

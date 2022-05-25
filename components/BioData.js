@@ -26,7 +26,7 @@ function BioData() {
           <br></br>
           <b>
             Hi!<br></br>
-            <br></br>{" "}
+            <br></br>
             <i>
               My name is Rhoda, and I am a Full Stack Developer from Toronto,
               Canada.
@@ -56,7 +56,7 @@ function BioData() {
       </div>
 
       <div className={styles.skills}>
-        <p>
+        <div>
           <h2 align="center">
             <u>SKILLS</u>
           </h2>
@@ -74,7 +74,7 @@ function BioData() {
           <b>Auxiliary Technologies</b>
           <br></br>
           Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
-        </p>
+        </div>
       </div>
     </motion.div>
   );
