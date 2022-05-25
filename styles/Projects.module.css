@@ -23,7 +23,7 @@
   height: 650px;
   width: 1400px;
   display: flex;  
-  border-radius: 10px;
+  border-radius: 25px;
   border-bottom: 3px solid white;
   font-family: "Darker Grotesque", sans-serif;
   color: black;
@@ -39,14 +39,14 @@
   }
 
  .democontainer {
-
-    border: 1px solid white;
+  border-bottom: 1px solid white;
+    border-top: 1px solid white;
  }
 
 
  .cardcontainer {
  border-radius: 15px;
- background-color: rgba(255, 255, 255, 0.5);
+ background-color: rgba(255, 255, 255, 0.3);
  font-family: "Darker Grotesque", sans-serif;
  color: white;
 display: flex;
@@ -65,7 +65,7 @@ align-items: center;
 
 
  .projecttitle {
-   font-size: 25px;
+   font-size: 22px;
    margin-top: 0.5rem;
    font-family: "Darker Grotesque", sans-serif;
  }
@@ -85,18 +85,20 @@ align-items: center;
 
  .projectbuttons {
    text-align: center;
+    margin-bottom: 1rem;
  }
 
  .projectbtn {
-   border: 3px solid white;
+   border-right: 2px solid white;
+   border-left: 2px solid white;
    border-radius: 5px;
    color: white;
    cursor: pointer;
+  
  }
 
  .projectbtn:hover {
-color: grey;
-background-color: white;
+border: 2px solid white
  }
 
  .projectbtn #portfolio {

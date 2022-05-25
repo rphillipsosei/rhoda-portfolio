@@ -15,8 +15,15 @@ import Typography from "@mui/material/Typography";
 import {ProjectData} from "../components/ProjectCard.js"
 import Projects from "./projects"
 import Link from "next/link"
+import {BioData} from "../components/BioData"
+import About from "../components/About"
 
 export default function Home() {
+
+
+
+
+
 
 
   return (
@@ -48,7 +55,7 @@ export default function Home() {
         <Grid container spacing={2} className={styles.textimage}>
           <Grid lg={3.5} className={styles.leftsidehome}>
             <Item>
-              <div className={styles.leftcontents}>
+              <div className={styles.leftcontents} id="left-contents">
                <div className={styles.textcontrol}>
                 <div>
                   <h1>Hi!</h1>
@@ -64,9 +71,11 @@ export default function Home() {
                       </Button>
                       </Link>
 
-                      <Button className={styles.homebtn}>
+                      <Button className={styles.homebtn}
+                     >
                         <a>ABOUT ME</a>
                       </Button>
+
                     </div>
                   </div>
                 </div>
@@ -93,8 +102,10 @@ export default function Home() {
           </Grid>
         </Grid>
       </div>
-    </motion.div>
+    </motion.div>    
+    <About/>
     <Projects/>
+
     </div>
   );
 }

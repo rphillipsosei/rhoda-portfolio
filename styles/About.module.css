@@ -1,0 +1,68 @@
+.aboutcontainer {
+    height: 100vh;
+    border: 3px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+  
+  }
+
+  .aboutbox {
+  width: 1200px;
+  border-bottom: 3px solid white;
+  border-radius: 15px;
+  /* border: 3px solid hotpink; */
+  height: 700px;
+  display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bio {
+/* border: 3px solid orange; */
+height: 650px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.skills {
+  /* border: 3px solid purple; */
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.biotext {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border-bottom: 3px solid white; */
+  border-radius: 15px;
+  height: 90%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  color: white;
+}
+.skillstext {
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border-bottom: 3px solid white; */
+  border-radius: 15px;
+  height: 90%;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 2rem;
+  color: white;
+}
+

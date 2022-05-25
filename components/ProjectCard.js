@@ -70,9 +70,8 @@ const data = [
 
 export default function ProjectCard() {
 
-for(let i = 0 ; i < data.length; i ++) {
-  let buttonID = data[i]
-}
+//hide leftside home when projects button is clicked
+
 
 
   const [open, setOpen] = useState(false);
@@ -109,11 +108,7 @@ for(let i = 0 ; i < data.length; i ++) {
       </CardContent>
       <CardActions className={styles.projectbuttons}>
         <Link href={project.github}>
-        <Button className={styles.projectbtn} size="small"><b>VIEW SOURCE CODE</b></Button></Link>
-     
-        
-        {project.id !== "portfolio"? 
-        (<Button onClick={handleOpen} className={styles.projectbtn} size="small"><b>{project.demo}</b></Button>): null}
+        <Button className={styles.projectbtn} size="small">VIEW SOURCE CODE</Button></Link>
          <Modal
         open={open}
         onClose={handleClose}
@@ -131,23 +126,34 @@ for(let i = 0 ; i < data.length; i ++) {
                     // objectFit="contain"
                     ></Image>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-            Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
+           Highlights: {project.features}
           </Typography>
         </Box>
       </Modal>
+        
+        {project.id !== "portfolio"? 
+        (<Button onClick={handleOpen} className={styles.projectbtn} size="small">{project.demo}</Button>): null}
+         
       </CardActions>
     </Card>)
-    })}</div></div>
+    })}</div>
+    
+</div>
   )}
-
+//want to open ONLY the data 
   const style = {
     position: 'absolute',
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 800,
+    width: 1000,
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
+    display: "flex",
+    justifyContent: "center",
+    flexDirection: "column",
+    alignItems: "center",
+    borderRadius: "15px",
   };
