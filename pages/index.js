@@ -78,16 +78,17 @@ export default function Home() {
           </Grid>
           <div className={styles.btnrow}>
                         <div className={styles.homebtns}>
-                        <Link href="/#projects">
-                            <Button className={styles.homebtn}>
-                              <a>PROJECTS</a>
-                            </Button>
-                          </Link>
-                          <Link href="/#about">
+                         <Link href="/#about">
                             <Button className={styles.homebtn}>
                               <a>ABOUT ME</a>
                             </Button>
                           </Link>
+                          <Link href="/#projects">
+                            <Button className={styles.homebtn}>
+                              <a>PROJECTS</a>
+                            </Button>
+                          </Link>
+                         
                         </div>
                       </div>
         </div>

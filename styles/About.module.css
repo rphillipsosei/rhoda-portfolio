@@ -1,6 +1,6 @@
 .aboutcontainer {
     height: 100vh;
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -83,6 +83,8 @@ margin-bottom: 2.5rem;
   font-size: 15px;
   border-left: 3px solid white;
   border-right: 3px solid white;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
   color: white;
   width: 120px;
   display: flex;
@@ -91,9 +93,8 @@ margin-bottom: 2.5rem;
 }
 
 .aboutbtn:hover {
-  border-top: 3px solid white;
+  border: 3px solid white;
   border-bottom: 3px solid white;
-  /* color: tan; */
   /* background-color: white */
 }
 
@@ -111,7 +112,25 @@ margin-bottom: 2.5rem;
 
 .aboutbtns {
   /* border: 3px solid slateblue; */
-  width: 255px;
+  width: 405px;
   display: flex;
   justify-content: space-between;
+}
+
+.disabledbutton {
+  border-left: 3px solid gray;
+  border-right: 3px solid gray;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  color: grey;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  cursor: initial;
+}
+
+.disabledbutton:hover {
+  background-color: transparent;
 }
