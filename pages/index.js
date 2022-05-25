@@ -13,11 +13,14 @@ import Fade from "@mui/material/Fade";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import {ProjectData} from "../components/ProjectCard.js"
+import Projects from "./projects"
+import Link from "next/link"
 
 export default function Home() {
 
 
   return (
+    <div>
     <motion.div
       initial="hidden"
       animate="visible"
@@ -50,15 +53,16 @@ export default function Home() {
                 <div>
                   <h1>Hi!</h1>
                   My name is <b>Rhoda Phillips-Osei</b>, and I am a 
-                   <b> Junior Full Stack Developer</b> from <b>Toronto, Canada</b>.
+                   <b> Junior Full Stack Developer</b> from <b>Toronto, Canada</b> with an extensive <b>people-based</b> background .
                   <br></br>
                   <br></br>
                   <div className={styles.btnrow}>
                     <div className={styles.homebtns}>
+                      <Link href="/projects">
                       <Button className={styles.homebtn}>
                         <a>PROJECTS</a>
                       </Button>
-                      
+                      </Link>
 
                       <Button className={styles.homebtn}>
                         <a>ABOUT ME</a>
@@ -90,6 +94,8 @@ export default function Home() {
         </Grid>
       </div>
     </motion.div>
+    <Projects/>
+    </div>
   );
 }
 

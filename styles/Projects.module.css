@@ -1,6 +1,10 @@
-.container {
+.projectscontainer {
     height: 100vh;
     border: 3px solid blue;
+    /* height: 93%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   
   }
 
@@ -8,10 +12,7 @@
     /* background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1600); */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 93%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  
     /* background-color: #d2b48c; */
     /* background-image: url("https://www.transparenttextures.com/patterns/subtle-zebra-3d.png"); */
     border: 3px solid hotpink;
@@ -21,9 +22,8 @@
     margin-top: 2rem;
   height: 650px;
   width: 1400px;
-  display: flex;
-  
-  border-radius: 20px;
+  display: flex;  
+  border-radius: 10px;
   border-bottom: 3px solid white;
   font-family: "Darker Grotesque", sans-serif;
   color: black;
@@ -51,7 +51,7 @@
  color: white;
 display: flex;
 flex-direction: column;
-/* align-items: center; */
+align-items: center;
  }
 
 
@@ -80,6 +80,7 @@ flex-direction: column;
   color: white;
   /* font-weight:bold; */
   text-align: center;
+  /* margin-bottom: 1rem; */
  }
 
  .projectbuttons {
@@ -87,12 +88,25 @@ flex-direction: column;
  }
 
  .projectbtn {
-   border-right: 3px solid white;
-   border-left: 3px solid white;
+   border: 3px solid white;
    border-radius: 5px;
    color: white;
+   cursor: pointer;
+ }
+
+ .projectbtn:hover {
+color: grey;
+background-color: white;
  }
 
  .projectbtn #portfolio {
    display: none
+ }
+
+ .modaltitle {
+font-size: 35px;
+font-family:  "Darker Grotesque", sans-serif;
+margin-bottom: 1rem;
+display: flex;
+justify-content: center;
  }

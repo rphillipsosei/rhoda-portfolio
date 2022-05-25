@@ -5,15 +5,15 @@ import ProjectCard from "../components/ProjectCard"
 
 export default function Projects() {
   return (
-    <div className={styles.container}>
-      <Nav />
-      <div className={styles.projectscontents}>
+    <div className={styles.projectscontainer}>
+      {/* <Nav /> */}
+      {/* <div className={styles.projectscontents}> */}
        
          
 <ProjectCard/>
 
        
       </div>
-    </div>
+    // </div>
   );
 }
