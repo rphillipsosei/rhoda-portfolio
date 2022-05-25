@@ -8,13 +8,11 @@ import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Projects from "../components/Projects";
-import { HashLink as Link } from "react-router-hash-link";
+import Link from "next/link";
 import About from "../components/About";
-import { BrowserRouter } from "react-router-dom";
 
 export default function Home() {
   return (
-    <BrowserRouter>
     <div>
       <motion.div
         initial="hidden"
@@ -54,12 +52,12 @@ export default function Home() {
                       <br></br>
                       <div className={styles.btnrow}>
                         <div className={styles.homebtns}>
-                          <Link to="#projects">
+                        <Link href="/#projects">
                             <Button className={styles.homebtn}>
                               <a>PROJECTS</a>
                             </Button>
                           </Link>
-                          <Link to="about">
+                          <Link href="/#about">
                             <Button className={styles.homebtn}>
                               <a>ABOUT ME</a>
                             </Button>
@@ -93,9 +91,7 @@ export default function Home() {
       </motion.div>
       <About />
       <Projects />
-
-      </div>
-      </BrowserRouter>
+    </div>
   );
 }
 
@@ -113,6 +109,3 @@ const style = {
   p: 4,
 };
 
-// const navStyle = {
-//  background-color: rgba(255, 255, 255, 0.1);
-// }

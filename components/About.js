@@ -10,8 +10,9 @@ export default function Home() {
   return (
     <div className={styles.aboutcontainer} id="about">
         <div className={styles.aboutbox}>
+         <div className={styles.abouttitle}><h1>ABOUT ME</h1></div> 
 <Grid container >
-  <Grid item lg={7} className={styles.bio}>
+  <Grid item lg={7.6} className={styles.bio}>
   <div className={styles.biotext}><Item>
   <div>
           <br></br>
@@ -41,24 +42,24 @@ export default function Home() {
         </div>
       </Item></div>
   </Grid>
-  <Grid item lg={5} className={styles.skills}>
+  <Grid item lg={4} className={styles.skills}>
       <div className={styles.skillstext}><Item>
       <div>
-          <h2 align="center">
-            <u>SKILLS</u>
-          </h2>
-          <b>Front End Technologies</b>
+          <h3 align="center">
+            SKILLS
+          </h3>
+          <u>Front End Technologies</u>
           <br></br>
           Javascript (jQuery, AJAX, React, Next.js), HTML, CSS, SCSS/SASS,
           MaterialUI, Bootstrap, React Bootstrap
           <br></br>
           <br></br>
-          <b>Back End Technologies</b>
+          <u>Back End Technologies</u>
           <br></br>
           Javascript (Node.js, Express.js), Ruby, bCrpyt, PostgreSQL
           <br></br>
           <br></br>
-          <b>Auxiliary Technologies</b>
+          <u>Auxiliary Technologies</u>
           <br></br>
           Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
         </div>
