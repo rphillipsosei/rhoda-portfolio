@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
@@ -7,14 +7,16 @@ import { motion } from "framer-motion";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
 import Button from "@mui/material/Button";
-import Projects from "../components/Projects";
-import { HashLink as Link } from "react-router-hash-link";
-import About from "../components/About";
-import { BrowserRouter } from "react-router-dom";
+import Projects from "./projects";
+// import { HashLink as Link } from "react-router-hash-link";
+import Link from "next/link"
+import About from "./about";
+
+
 
 export default function Home() {
   return (
-    <BrowserRouter>
+
     <div>
       <motion.div
         initial="hidden"
@@ -54,12 +56,12 @@ export default function Home() {
                       <br></br>
                       <div className={styles.btnrow}>
                         <div className={styles.homebtns}>
-                          <Link to="#projects">
+                          <Link href="/projects">
                             <Button className={styles.homebtn}>
                               <a>PROJECTS</a>
                             </Button>
                           </Link>
-                          <Link to="about">
+                          <Link href="/about">
                             <Button className={styles.homebtn}>
                               <a>ABOUT ME</a>
                             </Button>
@@ -91,11 +93,7 @@ export default function Home() {
           </Grid>
         </div>
       </motion.div>
-      <About />
-      <Projects />
-
       </div>
-      </BrowserRouter>
   );
 }
 

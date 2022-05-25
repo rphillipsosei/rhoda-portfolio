@@ -2,16 +2,31 @@ import React from "react";
 import styles from "../styles/About.module.css";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
-
-
-export default function Home() {
+import Link from 'next/link'
+import Button from "@mui/material/Button"
+export default function about() {
 
 
   return (
     <div className={styles.aboutcontainer} id="about">
         <div className={styles.aboutbox}>
+        <div className={styles.btnrow}>
+                        <div className={styles.aboutbtns}>
+                          <Link href="/">
+                            <Button className={styles.aboutbtn}>
+                              <a>HOME</a>
+                            </Button>
+                          </Link>
+                          <Link href="/projects">
+                            <Button className={styles.aboutbtn}>
+                              <a>PROJECTS</a>
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
+          <div>
 <Grid container >
-  <Grid item lg={7} className={styles.bio}>
+  <Grid item lg={6} className={styles.bio}>
   <div className={styles.biotext}><Item>
   <div>
           <br></br>
@@ -41,7 +56,7 @@ export default function Home() {
         </div>
       </Item></div>
   </Grid>
-  <Grid item lg={5} className={styles.skills}>
+  <Grid item lg={6} className={styles.skills}>
       <div className={styles.skillstext}><Item>
       <div>
           <h2 align="center">
@@ -63,9 +78,10 @@ export default function Home() {
           Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
         </div>
           </Item></div>
-    
   </Grid>
   </Grid>
+  </div>
+
   </div>
     </div>
   );

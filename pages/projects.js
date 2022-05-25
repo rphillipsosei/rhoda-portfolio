@@ -1,6 +1,6 @@
-import Nav from "./Nav.js";
+import Nav from "../components/Nav.js";
 import styles from "../styles/Projects.module.css";
-import ProjectCard from "./ProjectCard"
+import ProjectCard from "../components/ProjectCard"
 
 
 export default function Projects() {
