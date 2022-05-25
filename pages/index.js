@@ -39,9 +39,11 @@ export default function Home() {
         <Nav />
         <div className={styles.homecontents}>
           <Grid container spacing={2} className={styles.textimage}>
+       
             <Grid lg={3.5} className={styles.leftsidehome}>
               <Item>
                 <div className={styles.leftcontents} id="left-contents">
+                
                   <div className={styles.textcontrol}>
                     <div>
                       <h1>Hi!</h1>
@@ -50,20 +52,7 @@ export default function Home() {
                       <b>Toronto, Canada</b> with an extensive{" "}
                       <b>people-based</b> background .<br></br>
                       <br></br>
-                      <div className={styles.btnrow}>
-                        <div className={styles.homebtns}>
-                        <Link href="/#projects">
-                            <Button className={styles.homebtn}>
-                              <a>PROJECTS</a>
-                            </Button>
-                          </Link>
-                          <Link href="/#about">
-                            <Button className={styles.homebtn}>
-                              <a>ABOUT ME</a>
-                            </Button>
-                          </Link>
-                        </div>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
@@ -87,6 +76,20 @@ export default function Home() {
               </Item>
             </Grid>
           </Grid>
+          <div className={styles.btnrow}>
+                        <div className={styles.homebtns}>
+                        <Link href="/#projects">
+                            <Button className={styles.homebtn}>
+                              <a>PROJECTS</a>
+                            </Button>
+                          </Link>
+                          <Link href="/#about">
+                            <Button className={styles.homebtn}>
+                              <a>ABOUT ME</a>
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
         </div>
       </motion.div>
       <About />

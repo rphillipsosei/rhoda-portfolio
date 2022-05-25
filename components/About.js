@@ -2,7 +2,8 @@ import React from "react";
 import styles from "../styles/About.module.css";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
-
+import Link from "next/link"
+import Button from "@mui/material/Button"
 
 export default function Home() {
 
@@ -68,6 +69,23 @@ export default function Home() {
   </Grid>
   </Grid>
   </div>
+  <div className={styles.btnrow}>
+                        <div className={styles.aboutbtns}>
+                            <Link href="/#projects">
+                            <Button className={styles.aboutbtn}>
+                              <a>PROJECTS</a>
+                            </Button>
+                          </Link>
+                          <Link href="/">
+                            <Button className={styles.aboutbtn}>
+                              <a>HOME</a>
+                            </Button>
+                          </Link>
+                        
+                        </div>
+                      </div>
+          <div>
+            </div>
     </div>
   );
 }

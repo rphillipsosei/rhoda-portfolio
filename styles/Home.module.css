@@ -36,14 +36,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   /* background-color: #d2b48c; */
   /* background-image: url("https://www.transparenttextures.com/patterns/subtle-zebra-3d.png"); */
-  /* border: 3px solid hotpink; */
+  border: 3px solid hotpink;
 }
 
 .textimage {
   display: flex;
   justify-content: center;
+  /* border: 3px solid blue; */
+  height: 600px;
 }
 .rightsidehome {
   margin-top: 2rem;
@@ -121,12 +124,15 @@
   /* border: 3px solid blue; */
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: 15px;
   cursor: pointer;
+
 }
 
 .homebtns {
+  position: absolute;
+
   /* border: 3px solid slateblue; */
   width: 255px;
   display: flex;

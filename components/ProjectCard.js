@@ -80,6 +80,7 @@ export default function ProjectCard() {
 //let the id of the card be project[index].
 
   return (
+    <div className={styles.projectcontainer}>
     <div className={styles.projectsbox}>
      <h1>PROJECTS</h1>
      <div className={styles.cardrow}>
@@ -137,10 +138,25 @@ export default function ProjectCard() {
       </CardActions>
     </Card>)
     })}</div>
-    
+     </div>
+  <div className={styles.btnrownav}>
+                        <div className={styles.projectbtnsnav}>
+                          <Link href="/">
+                            <Button className={styles.projectbtnnav}>
+                              <a>HOME</a>
+                            </Button>
+                          </Link>
+                          <Link href="/#about">
+                            <Button className={styles.projectbtnnav}>
+                              <a>ABOUT</a>
+                            </Button>
+                          </Link>
+                        </div>
+                      </div>
 </div>
   )}
-//want to open ONLY the data 
+
+
   const style = {
     position: 'absolute',
     top: '50%',
