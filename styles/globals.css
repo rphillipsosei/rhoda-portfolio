@@ -1,5 +1,7 @@
 html,
+
 body {
+  scroll-behavior: smooth;
   width: 100%;
   /* padding: 1rem; */
   margin: 0;

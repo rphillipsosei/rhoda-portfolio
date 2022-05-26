@@ -113,6 +113,14 @@ font-family:  "Darker Grotesque", sans-serif;
 margin-bottom: 1rem;
 display: flex;
 justify-content: center;
+color: white;
+ }
+
+ .modaldesc {
+  font-family:  "Darker Grotesque", sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  color: white;
  }
 
  

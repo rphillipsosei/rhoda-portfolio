@@ -12,146 +12,143 @@ import Modal from "@mui/material/Modal";
 import { useState } from "react";
 import Image from "next/image";
 
-
 export default function Projects() {
-
   const [open, setOpen] = useState(false);
   const handleClose = () => setOpen(false);
   const [project, setProject] = useState(null);
 
   const handleOpen = (project) => {
-    setProject(project)
-    setOpen(true)};
- 
+    setProject(project);
+    setOpen(true);
+  };
 
   return (
-    <motion.div 
-    initial="hidden"
-    animate="visible"
-    variants={{
-      hidden: {
-        opacity: 0,
-      },
-      visible: {
-        opacity: 1,
-        transition: {
-          delay: 0.7,
+    <motion.div
+      initial="hidden"
+      animate="visible"
+      variants={{
+        hidden: {
+          opacity: 0,
         },
-      },
-    }}
-    className={styles.projectscontainer} 
-    id="projects"
+        visible: {
+          opacity: 1,
+          transition: {
+            delay: 0.7,
+          },
+        },
+      }}
+      className={styles.projectscontainer}
+      id="projects"
     >
-<div className={styles.projectcontainer}>
-      <div className={styles.projectsbox}>
-        <h1>PROJECTS</h1>
-        <div className={styles.cardrow}>
-          {data.map((project, index) => {
-            return (
-              <Card
-                key="index"
-                className={styles.cardcontainer}
-                sx={{ maxWidth: 300, maxHeight: 450 }}
-              >
-                <Typography
-                  align="center"
-                  gutterBottom
-                  variant="h5"
-                  component="div"
-                  className={styles.projecttitle}
+      <div className={styles.projectcontainer}>
+        <div className={styles.projectsbox}>
+          <h1>PROJECTS</h1>
+          <div className={styles.cardrow}>
+            {data.map((project, index) => {
+              return (
+                <Card
+                  key="index"
+                  className={styles.cardcontainer}
+                  sx={{ maxWidth: 300, maxHeight: 450 }}
                 >
-                  {project.title}
-                </Typography>
-                <CardMedia
-                  className={styles.democontainer}
-                  component="img"
-                  alt="green iguana"
-                  height="140"
-                  image={project.image}
-                />
-                <CardContent>
                   <Typography
-                    variant="body2"
-                    color="text.secondary"
-                    className={styles.projectdesc}
+                    align="center"
+                    gutterBottom
+                    variant="h5"
+                    component="div"
+                    className={styles.projecttitle}
                   >
-                    {project.description}
-                    <br></br>
-                    <br></br>
-                    STACK<br></br>
-                    {project.technologies}
+                    {project.title}
                   </Typography>
-                </CardContent>
-                <CardActions className={styles.projectbuttons}>
-                  <Link href={project.github}>
-                    <Button className={styles.projectbtn} size="small">
-                      VIEW SOURCE CODE
-                    </Button>
-                  </Link>
-                  <Modal
-                    open={open}
-                    onClose={handleClose}
-                    aria-labelledby="modal-modal-title"
-                    aria-describedby="modal-modal-description"
-                  >
-                    <Box sx={style}>
-                      <Typography
-                        id="modal-modal-title"
-                        variant="h6"
-                        component="h2"
-                        className={styles.modaltitle}
-                      >
-                        {project.title}
-                      </Typography>
-                      <Image
-                        src={project.gif}
-                        alt={project.title}
-                        width={project.width}
-                        height={project.height}
-                      ></Image>
-                      <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        Highlights: {project.features}
-                      </Typography>
-                    </Box>
-                  </Modal>
-
-                  {project.id !== "portfolio" ? (
-                    <Button
-                      onClick={handleOpen}
-                      className={styles.projectbtn}
-                      size="small"
+                  <CardMedia
+                    className={styles.democontainer}
+                    component="img"
+                    alt="green iguana"
+                    height="140"
+                    image={project.image}
+                  />
+                  <CardContent>
+                    <Typography
+                      variant="body2"
+                      color="text.secondary"
+                      className={styles.projectdesc}
                     >
-                      {project.demo}
-                    </Button>
-                  ) : null}
-                </CardActions>
-              </Card>
-            );
-          })}
+                      {project.description}
+                      <br></br>
+                      <br></br>
+                      STACK<br></br>
+                      {project.technologies}
+                    </Typography>
+                  </CardContent>
+                  <CardActions className={styles.projectbuttons}>
+                    <Link href={project.github}>
+                      <Button className={styles.projectbtn} size="small">
+                        VIEW SOURCE CODE
+                      </Button>
+                    </Link>
+
+                    {project.id !== "portfolio" ? (
+                      <Button
+                        onClick={() => handleOpen(project)}
+                        className={styles.projectbtn}
+                        size="small"
+                      >
+                        {project.demo}
+                      </Button>
+                    ) : null}
+                  </CardActions>
+                </Card>
+              );
+            })}
+          </div>
+          {project && <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+            <Box sx={style}>
+              <Typography
+                id="modal-modal-title"
+                variant="h6"
+                component="h2"
+                className={styles.modaltitle}
+              >
+                {project.title}
+              </Typography>
+              <Image
+                src={project.gif}
+                alt={project.title}
+                width={project.width}
+                height={project.height}
+              ></Image>
+              <Typography className={styles.modaldesc} id="modal-modal-description" sx={{ mt: 2 }}>
+                Highlights: {project.features}
+              </Typography>
+            </Box>
+          </Modal>
+          }
+          
+        </div>
+        <div className={styles.btnrownav}>
+          <div className={styles.projectbtnsnav}>
+            <Link href="/">
+              <Button className={styles.projectbtnnav}>
+                <a> HOME</a>
+              </Button>
+            </Link>
+            <Link href="/#about">
+              <Button className={styles.projectbtnnav}>
+                <a>ABOUT ME</a>
+              </Button>
+            </Link>
+            <Button className={styles.disabledbutton}>PROJECTS</Button>
+          </div>
         </div>
       </div>
-      <div className={styles.btnrownav}>
-        <div className={styles.projectbtnsnav}>
-          <Link href="/">
-            <Button className={styles.projectbtnnav}>
-              <a> HOME</a>
-            </Button>
-          </Link>
-          <Link href="/#about">
-            <Button className={styles.projectbtnnav}>
-              <a>ABOUT ME</a>
-            </Button>
-          </Link>
-          <Button  className={styles.disabledbutton}>
-              PROJECTS
-            </Button>
-        </div>
-      </div>
-    </div>
-      </motion.div>
+    </motion.div>
   );
 }
-
 
 const style = {
   position: "absolute",
@@ -159,8 +156,8 @@ const style = {
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 1000,
-  bgcolor: "background.paper",
-  border: "2px solid #000",
+  bgcolor: "rgba(73, 80, 121, 0.8)",
+  border: "2px solid #ffff",
   boxShadow: 24,
   p: 4,
   display: "flex",
@@ -183,7 +180,7 @@ const data = [
     id: "tweeter",
     demo: "SEE DEMO",
     features:
-      "Character tracker, real-time tweet posting, conditional error messaging",
+      "Character tracker, real-time tweet posting, conditional error messaging.",
   },
   {
     image: "/moonbeam-thumbnail.png",
@@ -197,7 +194,7 @@ const data = [
     id: "moonbeam",
     demo: "SEE DEMO",
     features:
-      "Message submissions for email and newsletter sign-up, job application form",
+      "Message submissions for email and newsletter sign-up, job application form.",
   },
   {
     image: "/tinyapp-thumbnail.png",
@@ -210,7 +207,7 @@ const data = [
     width: "750px",
     id: "tinyapp",
     demo: "SEE DEMO",
-    features: " User authentication, password encryption, cookie management",
+    features: " User authentication, password encryption, cookie management.",
   },
   {
     image: "/portfolio-thumbnail.png",
@@ -224,4 +221,3 @@ const data = [
     id: "portfolio",
   },
 ];
-
