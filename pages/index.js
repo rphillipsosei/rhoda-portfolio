@@ -48,9 +48,9 @@ export default function Home() {
                     <div>
                       <h1>Hi!</h1>
                       My name is <b>Rhoda Phillips-Osei</b>, and I am a
-                      <b> Junior Full Stack Developer</b> from{" "}
-                      <b>Toronto, Canada</b> with an extensive{" "}
-                      <b>people-based</b> background .<br></br>
+                      <b> Junior Full Stack Developer</b> with an extensive{" "}
+                      <b>people-based</b> background, living in
+                      <b> Toronto, Canada</b> .<br></br>
                       <br></br>
                       
                     </div>

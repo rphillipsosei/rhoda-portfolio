@@ -12,8 +12,8 @@ export default function Home() {
         <div className={styles.abouttitle}>
           <h1>ABOUT ME</h1>
         </div>
-        <Grid container>
-          <Grid item lg={7.6} className={styles.bio}>
+        <Grid container className={styles.aboutgrid}>
+          <Grid item lg={7.6} md={6}className={styles.bio}>
             <div className={styles.biotext}>
               <Item>
                 <div>
@@ -46,7 +46,7 @@ export default function Home() {
               </Item>
             </div>
           </Grid>
-          <Grid item lg={4} className={styles.skills}>
+          <Grid item lg={4} md={3}className={styles.skills}>
             <div className={styles.skillstext}>
               <Item>
                 <div>

@@ -106,7 +106,7 @@ margin-bottom: 2.5rem;
   font-size: 15px;
   cursor: pointer;
   margin-top: 1rem;
-  padding-left: 4rem;
+  /* padding-left: 4rem; */
   justify-content: center;
 }
 
@@ -133,4 +133,120 @@ margin-bottom: 2.5rem;
 
 .disabledbutton:hover {
   background-color: transparent;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutbox {
+    width: 1000px;
+    height: 620px;
+  }
+
+  .skills {
+    display: flex;
+    justify-content: center;
+    /* width: 600px; */
+    /* border: 3px solid green; */
+    width: 100%
+  }
+
+  .bio {
+    /* border: 3px solid green; */
+    justify-content: center;
+  }
+  .biotext {
+    font-size: 16px;
+    width: 100%
+  }
+  .skillstext {
+    font-size: 16px;
+    width: 100%
+  }
+  .aboutgrid {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.aboutbox {
+  width: 850px;
+}
+}
+
+@media screen and (max-width: 899px) {
+
+  .aboutbox {
+    height: 650px;
+    width: 90%
+  }
+.aboutgrid {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.bio {
+  height: 280px;
+  margin-bottom: 1rem;
+  width: 95%
+}
+
+.skills {
+  height: 240px;
+ width: 95%;
+ margin-left: -1rem;
+
+}
+
+.skillstext {
+  font-size: 13px;
+  padding-bottom: -1rem;
+}
+
+
+
+
+.biotext {
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 680px) {
+  .aboutbox {
+    margin-top: 3rem;
+    height: 720px;
+  }
+
+  .biotext {
+    height: 320px;
+    font-size: 12px;
+    /* margin-bottom: 1rem; */
+  }
+  .skillstext {
+    height: 230px;
+    margin-top: 2rem;
+    font-size: 12px;
+  }
+
+  .skillstext h3 {
+    margin-top: -0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .biotext {
+    height: 340px;
+    font-size: 11px;
+  }
+
+  .skillstext {
+    height: 220px;
+    font-size: 11px;
+  }
+
+  .aboutbox h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
 }
