@@ -75,7 +75,7 @@ export default function Projects() {
                     >
                       {project.description}
                       <br></br>
-                    
+
                       <u>STACK</u>
                       {project.technologies}
                     </Typography>
@@ -101,34 +101,41 @@ export default function Projects() {
               );
             })}
           </div>
-          {project && <Modal
-            open={open}
-            onClose={handleClose}
-            aria-labelledby="modal-modal-title"
-            aria-describedby="modal-modal-description"
-          >
-            <Box sx={style}>
-              <Typography
-                id="modal-modal-title"
-                variant="h6"
-                component="h2"
-                className={styles.modaltitle}
-              >
-                {project.title}
-              </Typography>
-              <Image
-                src={project.gif}
-                alt={project.title}
-                width={project.width}
-                height={project.height}
-              ></Image>
-              <Typography className={styles.modaldesc} id="modal-modal-description" sx={{ mt: 2 }}>
-                Highlights: {project.features}
-              </Typography>
-            </Box>
-          </Modal>
-          }
-          
+
+          {project && (
+            <Modal
+              open={open}
+              onClose={handleClose}
+              aria-labelledby="modal-modal-title"
+              aria-describedby="modal-modal-description"
+              className={styles.popup}
+            >
+              <Box sx={style}>
+                <Typography
+                  id="modal-modal-title"
+                  variant="h6"
+                  component="h2"
+                  className={styles.modaltitle}
+                >
+                  {project.title}
+                </Typography>
+                <Image
+                  src={project.gif}
+                  alt={project.title}
+                  width={project.width}
+                  height={project.height}
+                  className={styles.modaldemo}
+                ></Image>
+                <Typography
+                  className={styles.modaldesc}
+                  id="modal-modal-description"
+                  sx={{ mt: 2 }}
+                >
+                  Highlights: {project.features}
+                </Typography>
+              </Box>
+            </Modal>
+          )}
         </div>
         <div className={styles.btnrownav}>
           <div className={styles.projectbtnsnav}>
@@ -165,6 +172,8 @@ const style = {
   flexDirection: "column",
   alignItems: "center",
   borderRadius: "15px",
+  width: "95%",
+  padding: "0.7rem"
 };
 
 const data = [
@@ -186,7 +195,7 @@ const data = [
     image: "/moonbeam-thumbnail.png",
     gif: "/moonbeamdemo.gif",
     title: "Moonbeam Trading Company",
-    description: "Company website to be deployed soon",
+    description: "Company website to be deployed in June 2022",
     technologies: "React, CSS, Material UI, Theme UI",
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
     height: "400px",

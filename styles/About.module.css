@@ -1,6 +1,6 @@
 .aboutcontainer {
     height: 100vh;
-    /* border: 3px solid red; */
+    /* border: 5px solid black; */
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -153,6 +153,11 @@ margin-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1280px) {
+
+  .aboutcontainer {
+    justify-content: center;
+    /* margin-top: -10rem; */
+  }
   .aboutbox {
     width: 1000px;
     height: 620px;
@@ -185,6 +190,7 @@ margin-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1024px) {
+
 .aboutbox {
   width: 850px;
 }
@@ -195,6 +201,7 @@ margin-bottom: 2.5rem;
   .aboutbox {
     height: 650px;
     width: 90%;
+    margin-top: -5rem;
   }
 .aboutgrid {
   flex-direction: column;
@@ -293,10 +300,12 @@ margin-bottom: 2.5rem;
   .aboutbox h1 {
     font-size: 30px;
     margin-bottom: 2rem;
+    margin-top: -0.3rem;
   }
 
 .aboutbox {
-  height: 680px;
+  margin-top: 4rem;
+  height: 650px;
 }
 }
 
