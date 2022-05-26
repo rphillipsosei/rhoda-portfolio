@@ -135,6 +135,23 @@ margin-bottom: 2.5rem;
   background-color: transparent;
 }
 
+@media screen and (max-width: 1440px) {
+    .btnrow {
+      width: 300px;
+    }
+    .aboutbtn {
+      font-size: 10px;
+      width: 80px;
+      height: 80%;
+    }
+  
+    .disabledbutton{
+      font-size: 10px;
+      width: 80px;
+      height: 80%;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .aboutbox {
     width: 1000px;
@@ -177,7 +194,7 @@ margin-bottom: 2.5rem;
 
   .aboutbox {
     height: 650px;
-    width: 90%
+    width: 90%;
   }
 .aboutgrid {
   flex-direction: column;
@@ -232,8 +249,36 @@ margin-bottom: 2.5rem;
   .skillstext h3 {
     margin-top: -0.8rem;
   }
+
+  .aboutbtn {
+    font-size: 12px;
+    width: 90px;
+    height: 80%;
+  }
+
+  .disabledbutton{
+    font-size: 12px;
+    width: 90px;
+    height: 80%;
+  }
 }
 
+@media screen and (max-width: 520px) {
+  .btnrow {
+    width: 300px;
+  }
+  .aboutbtn {
+    font-size: 10px;
+    width: 80px;
+    height: 80%;
+  }
+
+  .disabledbutton{
+    font-size: 10px;
+    width: 80px;
+    height: 80%;
+  }
+}
 @media screen and (max-width: 480px) {
   .biotext {
     height: 340px;
@@ -249,4 +294,21 @@ margin-bottom: 2.5rem;
     font-size: 30px;
     margin-bottom: 2rem;
   }
+
+.aboutbox {
+  height: 680px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .biotext {
+    height: 370px;
+    margin-top: 1.5rem;
+  }
+
+  .skillstext {
+    margin-top: 5rem;
+  }
+
+
 }

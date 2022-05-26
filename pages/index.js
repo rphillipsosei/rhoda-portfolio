@@ -39,8 +39,8 @@ export default function Home() {
         <Nav />
         <div className={styles.homecontents}>
           <Grid container spacing={2} className={styles.textimage}>
-       
-            <Grid lg={3.5} md={3} className={styles.leftsidehome}>
+       <div className={styles.divcombiner}>
+            <Grid lg={3.5} md={3.5} className={styles.leftsidehome}>
               <Item>
                 <div className={styles.leftcontents} id="left-contents">
                 
@@ -58,7 +58,7 @@ export default function Home() {
                 </div>
               </Item>
             </Grid>
-            <Grid item lg={3.5} md={3} className={styles.rightsidehome}>
+            <Grid item lg={3.5} md={3.5} className={styles.rightsidehome}>
               <Item>
                 <div className={styles.rightcontents}>
                   <div class={styles.imgcontainer}>
@@ -75,6 +75,7 @@ export default function Home() {
                 </div>
               </Item>
             </Grid>
+            </div>
           </Grid>
           <div className={styles.btnrow}>
                         <div className={styles.homebtns}>

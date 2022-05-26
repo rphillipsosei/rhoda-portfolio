@@ -75,8 +75,8 @@ export default function Projects() {
                     >
                       {project.description}
                       <br></br>
-                      
-                      <u>STACK</u><br></br>
+                    
+                      <u>STACK</u>
                       {project.technologies}
                     </Typography>
                   </CardContent>
