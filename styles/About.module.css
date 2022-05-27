@@ -1,63 +1,53 @@
 .aboutcontainer {
-    height: 100vh;
-    /* border: 5px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  }
+}
 
+.abouttitle {
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 1px black, 0 0 1px black;
+  font-size: 22px;
+  font-family: "Darker Grotesque", sans-serif;
+  color: white;
+}
 
-  .abouttitle {
-    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 1px black, 0 0 1px black;
-    font-size: 22px;
-    /* margin-top: 0.5rem; */
-    font-family: "Darker Grotesque", sans-serif;
-    color: white;
-  }
-
-  .aboutbox {
+.aboutbox {
   width: 1200px;
   border-bottom: 3px solid white;
   border-radius: 15px;
-  /* border: 3px solid hotpink; */
   height: 700px;
   display: flex;
-align-items: center;
-justify-content: center;
-background-color: rgba(255, 255, 255, 0.1);
-flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  flex-direction: column;
 }
 
 .bio {
-/* border: 3px solid orange; */
-height: 500px;
-display: flex;
-align-items: center;
-justify-content: flex-end;
-padding-right: 0.5rem;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
 }
 
 .skills {
-  /* border: 3px solid purple; */
   height: 500px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 0.5rem;
-margin-bottom: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
-
 .biotext {
-  /* text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; */
-
   font-size: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* border-bottom: 3px solid white; */
   border-radius: 15px;
   height: 100%;
   width: 90%;
@@ -65,8 +55,6 @@ margin-bottom: 2.5rem;
   padding: 2rem;
   color: white;
   line-height: 23px;
-  /* color: royalblue */
-  
 }
 .skillstext {
   line-height: 23px;
@@ -75,7 +63,6 @@ margin-bottom: 2.5rem;
   align-items: center;
   justify-content: center;
   text-align: center;
-  /* border-bottom: 3px solid white; */
   border-radius: 15px;
   height: 100%;
   width: 90%;
@@ -83,8 +70,6 @@ margin-bottom: 2.5rem;
   padding: 2rem;
   color: white;
 }
-
-
 
 .aboutbtn {
   font-weight: bold;
@@ -98,31 +83,23 @@ margin-bottom: 2.5rem;
   width: 120px;
   display: flex;
   justify-content: center;
-  
-
 }
 
 .aboutbtn:hover {
   border: 3px solid white;
   border-bottom: 3px solid white;
-  /* background-color: white */
 }
 
 .btnrow {
-  /* border: 3px solid blue; */
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   font-size: 15px;
   cursor: pointer;
   margin-top: 1rem;
-  /* padding-left: 4rem; */
   justify-content: center;
 }
 
 .aboutbtns {
-  
-  /* border: 3px solid slateblue; */
   width: 405px;
   display: flex;
   justify-content: space-between;
@@ -135,7 +112,7 @@ margin-bottom: 2.5rem;
   border-bottom: 3px solid transparent;
   border-radius: 10px;
   font-size: 15px;
-  color:  #474646;;
+  color: #474646;
   width: 120px;
   display: flex;
   justify-content: center;
@@ -148,28 +125,25 @@ margin-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1440px) {
-    .btnrow {
-      width: 300px;
-    }
-    .aboutbtn {
-      font-size: 10px;
-      width: 80px;
-      height: 80%;
- 
-    }
-  
-    .disabledbutton{
-      font-size: 10px;
-      width: 80px;
-      height: 80%;
+  .btnrow {
+    width: 300px;
+  }
+  .aboutbtn {
+    font-size: 10px;
+    width: 80px;
+    height: 80%;
+  }
+
+  .disabledbutton {
+    font-size: 10px;
+    width: 80px;
+    height: 80%;
   }
 }
 
 @media screen and (max-width: 1280px) {
-
   .aboutcontainer {
     justify-content: center;
-    /* margin-top: -10rem; */
   }
   .aboutbox {
     width: 1000px;
@@ -179,22 +153,19 @@ margin-bottom: 2.5rem;
   .skills {
     display: flex;
     justify-content: center;
-    /* width: 600px; */
-    /* border: 3px solid green; */
-    width: 100%
+    width: 100%;
   }
 
   .bio {
-    /* border: 3px solid green; */
     justify-content: center;
   }
   .biotext {
     font-size: 16px;
-    width: 100%
+    width: 100%;
   }
   .skillstext {
     font-size: 16px;
-    width: 100%
+    width: 100%;
   }
   .aboutgrid {
     display: flex;
@@ -203,50 +174,43 @@ margin-bottom: 2.5rem;
 }
 
 @media screen and (max-width: 1024px) {
-
-.aboutbox {
-  width: 850px;
-}
+  .aboutbox {
+    width: 850px;
+  }
 }
 
 @media screen and (max-width: 899px) {
-
   .aboutbox {
     height: 650px;
     width: 90%;
     margin-top: -5rem;
   }
-.aboutgrid {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .aboutgrid {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .bio {
+    height: 280px;
+    margin-bottom: 1rem;
+    width: 95%;
+  }
 
-.bio {
-  height: 280px;
-  margin-bottom: 1rem;
-  width: 95%
-}
+  .skills {
+    height: 240px;
+    width: 95%;
+    margin-left: -1rem;
+  }
 
-.skills {
-  height: 240px;
- width: 95%;
- margin-left: -1rem;
+  .skillstext {
+    font-size: 13px;
+    padding-bottom: -1rem;
+  }
 
-}
-
-.skillstext {
-  font-size: 13px;
-  padding-bottom: -1rem;
-}
-
-
-
-
-.biotext {
-  font-size: 13px;
-}
+  .biotext {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -258,7 +222,6 @@ margin-bottom: 2.5rem;
   .biotext {
     height: 320px;
     font-size: 12px;
-    /* margin-bottom: 1rem; */
   }
   .skillstext {
     height: 230px;
@@ -276,7 +239,7 @@ margin-bottom: 2.5rem;
     height: 80%;
   }
 
-  .disabledbutton{
+  .disabledbutton {
     font-size: 12px;
     width: 90px;
     height: 80%;
@@ -293,7 +256,7 @@ margin-bottom: 2.5rem;
     height: 80%;
   }
 
-  .disabledbutton{
+  .disabledbutton {
     font-size: 10px;
     width: 80px;
     height: 80%;
@@ -316,10 +279,10 @@ margin-bottom: 2.5rem;
     margin-top: -0.3rem;
   }
 
-.aboutbox {
-  margin-top: 4rem;
-  height: 650px;
-}
+  .aboutbox {
+    margin-top: 4rem;
+    height: 650px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -331,6 +294,4 @@ margin-bottom: 2.5rem;
   .skillstext {
     margin-top: 5rem;
   }
-
-
 }

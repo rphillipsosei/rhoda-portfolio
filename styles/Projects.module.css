@@ -1,29 +1,21 @@
 .projectcontainer {
-    height: 100vh;
-    /* border: 5px solid blue; */
-    /* height: 93%; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  }
+}
 
-  .projectscontents {
-    /* background-image: url(https://images.pexels.com/photos/247599/pexels-photo-247599.jpeg?auto=compress&cs=tinysrgb&w=1600); */
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    /* background-color: #d2b48c; */
-    /* background-image: url("https://www.transparenttextures.com/patterns/subtle-zebra-3d.png"); */
-    /* : 3px solid hotpink; */
-  }
+.projectscontents {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .projectsbox {
-    /* border: 3px solid orangered; */
-    margin-top: 2rem;
+.projectsbox {
+  margin-top: 2rem;
   height: 650px;
   width: 1400px;
-  display: flex;  
+  display: flex;
   border-radius: 25px;
   border-bottom: 3px solid white;
   font-family: "Darker Grotesque", sans-serif;
@@ -33,123 +25,102 @@
   padding: 2rem;
   align-items: center;
   flex-direction: column;
-  }
+}
 
-  .projectsbox h1 {
-    text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-
-    color: white;
-    /* : 3px solid indigo */
-  }
-
-
-
-
- .cardcontainer {
-   /* border: 3px solid green; */
-   
- border-radius: 7px;
- background-color: rgba(255, 255, 255, 0.2);
- font-family: "Darker Grotesque", sans-serif;
- color: white;
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 300px;
- }
-
-
- .cardrow {
-   /* border: 3px solid purple; */
-   margin-top: 3rem;
-   display: flex;
-   flex-direction: row;
-   width: 100%;
-   justify-content: space-between;
- }
-
-
- .projecttitle {
+.projectsbox h1 {
   text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  color: white;
+}
 
-   /* border: 3px solid silver; */
-   font-size: 22px;
-   margin-top: 0.5rem;
-   font-family: "Darker Grotesque", sans-serif;
-   /* font-style: oblique; */
- }
- 
- .projectdesc {
-   line-height: 20px;
-   /* border: 3px solid hotpink; */
-   flex-direction: column;
-   display: flex;
-   justify-content: center;
-  font-size: 18px;
-  width: 290px;
-  /* margin-top: 0.5rem; */
+.cardcontainer {
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.2);
   font-family: "Darker Grotesque", sans-serif;
   color: white;
-  /* font-weight:bold; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.cardrow {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.projecttitle {
+  text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  font-size: 22px;
+  margin-top: 0.5rem;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.projectdesc {
+  line-height: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  width: 290px;
+  font-family: "Darker Grotesque", sans-serif;
+  color: white;
   text-align: center;
-  /* margin-bottom: 1rem; */
+}
 
- }
+.projectdesc u {
+  margin-top: 0.5rem;
+}
 
- .projectdesc u {
-   margin-top: 0.5rem;
- }
+.projectbuttons {
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
- .projectbuttons {
-   text-align: center;
-    margin-bottom: 1rem;
- }
+.projectbtn {
+  border-right: 2px solid white;
+  border-left: 2px solid white;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
 
- .projectbtn {
-   border-right: 2px solid white;
-   border-left: 2px solid white;
-   border-top: 3px solid transparent;
-   border-bottom: 3px solid transparent;
-   border-radius: 5px;
-   color: white;
-   cursor: pointer;
-  
- }
+.projectbtn:hover {
+  border: 2px solid white;
+  font-style: italic;
+}
 
- .projectbtn:hover {
-border: 2px solid white;
-font-style: italic;
- }
+.projectbtn #portfolio {
+  display: none;
+}
 
- .projectbtn #portfolio {
-   display: none
- }
+.modaltitle {
+  line-height: 30px;
+  font-size: 45px;
+  font-family: "Darker Grotesque", sans-serif;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
 
- .modaltitle {
-   line-height: 30px;
-font-size: 45px;
-font-family:  "Darker Grotesque", sans-serif;
-margin-bottom: 2rem;
-display: flex;
-justify-content: center;
-color: white;
-text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-
- }
-
- .modaldesc {
-  font-family:  "Darker Grotesque", sans-serif;
+.modaldesc {
+  font-family: "Darker Grotesque", sans-serif;
   font-style: italic;
   font-size: 20px;
   color: white;
   text-align: center;
   padding: 0.3rem;
- }
+}
 
- .modaltitle {
-   text-align: center;
-  
- }
+.modaltitle {
+  text-align: center;
+}
 .projectbtnnav {
   font-weight: bold;
   border-radius: 10px;
@@ -162,31 +133,24 @@ text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   width: 120px;
   display: flex;
   justify-content: center;
-
 }
 
 .projectbtnnav:hover {
   border: 3px solid white;
   font-style: italic;
-  /* color: tan; */
-  /* background-color: white */
 }
 
 .btnrownav {
-  /* border: 3px solid blue; */
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   font-size: 15px;
   cursor: pointer;
   margin-top: 1rem;
-  /* padding-left: 4rem; */
   justify-content: center;
   flex-direction: row;
 }
 
 .projectbtnsnav {
-  /* border: 3px solid slateblue; */
   width: 405px;
   display: flex;
   justify-content: space-between;
@@ -216,8 +180,8 @@ text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     justify-content: flex-start;
   }
   .projectsbox {
-   width: 90%;
-   margin-top: 7rem;
+    width: 90%;
+    margin-top: 7rem;
   }
 
   .cardrow {
@@ -229,15 +193,11 @@ text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     scrollbar-width: thin;
   }
 
-  
-
   .projectsbox h1 {
     margin-top: -1.5rem;
     margin-bottom: -2rem;
-
   }
   .cardcontainer {
-    /* min-width: 200px; */
     margin-bottom: 1rem;
     margin-right: 1rem;
     width: 280px;
@@ -249,7 +209,7 @@ text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
     height: 80%;
   }
 
-  .disabledbutton{
+  .disabledbutton {
     font-size: 12px;
     width: 90px;
     height: 80%;
@@ -260,32 +220,29 @@ text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   }
 }
 @media screen and (max-width: 1024px) {
- .popup {
-   width: 100%;
- }
+  .popup {
+    width: 100%;
+  }
 }
-
 
 @media screen and (max-width: 520px) {
   .projectcontainer {
     justify-content: flex-start;
-
-    /* align-items: flex-start */
     padding-top: 8rem;
   }
-  .projectsbox {
-height: 600px;
-margin-top: -1rem;
-width: 96%
 
+  .projectsbox {
+    height: 600px;
+    margin-top: -1rem;
+    width: 96%;
   }
 
   .cardrow {
     margin-left: 1rem;
   }
-.projectdesc {
-  width: 280px;
-}
+  .projectdesc {
+    width: 280px;
+  }
   .projectsbox h1 {
     margin-top: -2rem;
     margin-bottom: -3.5rem;
@@ -300,7 +257,7 @@ width: 96%
     height: 80%;
   }
 
-  .disabledbutton{
+  .disabledbutton {
     font-size: 10px;
     width: 80px;
     height: 80%;
@@ -313,8 +270,6 @@ width: 96%
     display: flex;
   }
   .modaldesc {
-font-size: 16px;
-
+    font-size: 16px;
   }
-
 }
