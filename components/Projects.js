@@ -74,8 +74,7 @@ export default function Projects() {
                       className={styles.projectdesc}
                     >
                       {project.description}
-                      <br></br>
-
+                     
                       <u>STACK</u>
                       {project.technologies}
                     </Typography>
@@ -181,7 +180,7 @@ const data = [
     image: "/tweeter-thumbnail.png",
     gif: "/tweeterdemo.gif",
     title: "Tweeter",
-    description: "Clone of a particular social media site ;-)",
+    description: "Clone of a particular social media app ;-)",
     technologies: "Javascript, jQuery, AJAX, HTML, CSS",
     github: "https://github.com/rphillipsosei/tweeter",
     height: "400px",
@@ -195,7 +194,7 @@ const data = [
     image: "/moonbeam-thumbnail.png",
     gif: "/moonbeamdemo.gif",
     title: "Moonbeam Trading Company",
-    description: "Company website to be deployed in June 2022",
+    description: "Company website to be deployed soon.",
     technologies: "React, CSS, Material UI, Theme UI",
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
     height: "400px",

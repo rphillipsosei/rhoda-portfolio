@@ -20,7 +20,7 @@ export default function Home() {
                   <br></br>
                   <b>Thanks for stopping by!</b>
                   <br></br>
-                  <br></br>To tell you a bit more about me, I come from a
+                  <br></br>I come from a
                   professional background that includes work in Social Services,
                   Education, and Customer Service. After many years working
                   between these fields, I felt a push for a new challenge, and
@@ -33,9 +33,8 @@ export default function Home() {
                   I have a lot to offer. As a Junior Dev, I think to how I can
                   write more efficient code that peers can build upon and
                   manipulate. I think to learning what makes more scalable
-                  databases, and apps run as quickly and efficiently as possible
-                  over servers. That is to say I am always thinking about how my
-                  work can improve the experiences of others.
+                  databases, and apps run as quickly and efficiently as possible. This is to say that I am always thinking about how my
+                  work can improve and simplify the experiences of others.
                   <br></br>
                   <br></br>
                   To end things off on a less formal note, in my spare time I

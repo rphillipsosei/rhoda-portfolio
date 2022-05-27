@@ -47,10 +47,10 @@ export default function Home() {
                   <div className={styles.textcontrol}>
                     <div>
                       <h1>Hi!</h1>
-                      My name is <b>Rhoda Phillips-Osei</b>, and I am a
+                      <b>My name is <b>Rhoda Phillips-Osei</b>, and I am a
                       <b> Junior Full Stack Developer</b> with an extensive{" "}
                       <b>people-based</b> background, living in
-                      <b> Toronto, Canada</b> .<br></br>
+                      <b> Toronto, Canada.</b> </b><br></br>
                       <br></br>
                       
                     </div>
