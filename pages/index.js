@@ -61,7 +61,7 @@ export default function Home() {
             <Grid item lg={3.5} md={4.5} className={styles.rightsidehome}>
               <Item>
                 <div className={styles.rightcontents}>
-                  <div class={styles.imgcontainer}>
+                  <div className={styles.imgcontainer}>
                     <Image
                       src="/01.webp"
                       alt="Rhoda Phillips-Osei"
