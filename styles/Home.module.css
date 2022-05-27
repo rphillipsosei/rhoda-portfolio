@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@500&family=Darker+Grotesque:wght@500&family=Orbitron:wght@500&family=Quicksand:wght@500&family=Syncopate&display=swap");
+
+.formfield {
+  margin-bottom: 1rem;
+  font-family: "Darker Grotesque", sans-serif;
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  border-radius: 10px;
+  color: black;
+}
+
+.modaltitle {
+  font-family: "Darker Grotesque", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  text-shadow: 0 0 1px salmon, 0 0 2px salmon, 0 0 2px salmon, 0 0 2px salmon;
+}
 .divcombiner {
   display: flex;
 flex-direction: row;
