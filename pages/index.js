@@ -40,17 +40,17 @@ export default function Home() {
         <div className={styles.homecontents}>
           {/* <Grid container spacing={2} className={styles.textimage}> */}
             <div className={styles.divcombiner}>
-              <Grid lg={3.5} md={4.5} className={styles.leftsidehome}>
+              <Grid className={styles.leftsidehome}>
                 <Item>
                   <div className={styles.leftcontents} id="left-contents">
                     <div className={styles.textcontrol}>
                       <div>
                         <h1>Hi!</h1>
-                        <b>
+                      
                           My name is <b>Rhoda Phillips-Osei</b>, and I am a
-                          <b> Junior Full Stack Developer</b> with an extensive{" "}
-                          <b>people-based</b> background, living in
-                          <b> Toronto, Canada.</b>{" "}
+                          <b> Junior Full Stack Developer</b> with an extensive
+                          <b> people-based</b> background, living in
+                          <b> Toronto, Canada.
                         </b>
                         <br></br>
                         <br></br>
@@ -59,7 +59,7 @@ export default function Home() {
                   </div>
                 </Item>
               </Grid>
-              <Grid item lg={3.5} md={4.5} className={styles.rightsidehome}>
+              <Grid item  className={styles.rightsidehome}>
                 <Item>
                   <div className={styles.rightcontents}>
                     <div className={styles.imgcontainer}>
@@ -81,14 +81,14 @@ export default function Home() {
           <div className={styles.btnrow}>
             <div className={styles.homebtns}>
               <Link href="/#about">
-                <Button className={styles.homebtn}>
+                <span className={styles.homebtn}>
                   <a>ABOUT ME</a>
-                </Button>
+                </span>
               </Link>
               <Link href="/#projects">
-                <Button className={styles.homebtn}>
+                <span className={styles.homebtn}>
                   <a>PROJECTS</a>
-                </Button>
+                </span>
               </Link>
             </div>
           </div>

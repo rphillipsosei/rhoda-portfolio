@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 3px solid blue
+  border: 3px solid blue;
 }
 
 .projectscontents {
@@ -13,6 +13,7 @@
 }
 
 .projectsbox {
+
   margin-top: 2rem;
   height: 650px;
   width: 1400px;
