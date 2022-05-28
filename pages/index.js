@@ -39,59 +39,59 @@ export default function Home() {
         <Nav />
         <div className={styles.homecontents}>
           <Grid container spacing={2} className={styles.textimage}>
-       <div className={styles.divcombiner}>
-            <Grid lg={3.5} md={4.5} className={styles.leftsidehome}>
-              <Item>
-                <div className={styles.leftcontents} id="left-contents">
-                
-                  <div className={styles.textcontrol}>
-                    <div>
-                      <h1>Hi!</h1>
-                      <b>My name is <b>Rhoda Phillips-Osei</b>, and I am a
-                      <b> Junior Full Stack Developer</b> with an extensive{" "}
-                      <b>people-based</b> background, living in
-                      <b> Toronto, Canada.</b> </b><br></br>
-                      <br></br>
-                      
+            <div className={styles.divcombiner}>
+              <Grid lg={3.5} md={4.5} className={styles.leftsidehome}>
+                <Item>
+                  <div className={styles.leftcontents} id="left-contents">
+                    <div className={styles.textcontrol}>
+                      <div>
+                        <h1>Hi!</h1>
+                        <b>
+                          My name is <b>Rhoda Phillips-Osei</b>, and I am a
+                          <b> Junior Full Stack Developer</b> with an extensive{" "}
+                          <b>people-based</b> background, living in
+                          <b> Toronto, Canada.</b>{" "}
+                        </b>
+                        <br></br>
+                        <br></br>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </Item>
-            </Grid>
-            <Grid item lg={3.5} md={4.5} className={styles.rightsidehome}>
-              <Item>
-                <div className={styles.rightcontents}>
-                  <div className={styles.imgcontainer}>
-                    <Image
-                      src="/01.webp"
-                      alt="Rhoda Phillips-Osei"
-                      className={styles.homeimg}
-                      width="100%"
-                      height="100%"
-                      layout="responsive"
-                      objectFit="contain"
-                    ></Image>
+                </Item>
+              </Grid>
+              <Grid item lg={3.5} md={4.5} className={styles.rightsidehome}>
+                <Item>
+                  <div className={styles.rightcontents}>
+                    <div className={styles.imgcontainer}>
+                      <Image
+                        src="/01.webp"
+                        alt="Rhoda Phillips-Osei"
+                        className={styles.homeimg}
+                        width="100%"
+                        height="100%"
+                        layout="responsive"
+                        objectFit="contain"
+                      ></Image>
+                    </div>
                   </div>
-                </div>
-              </Item>
-            </Grid>
+                </Item>
+              </Grid>
             </div>
           </Grid>
           <div className={styles.btnrow}>
-                        <div className={styles.homebtns}>
-                         <Link href="/#about">
-                            <Button className={styles.homebtn}>
-                              <a>ABOUT ME</a>
-                            </Button>
-                          </Link>
-                          <Link href="/#projects">
-                            <Button className={styles.homebtn}>
-                              <a>PROJECTS</a>
-                            </Button>
-                          </Link>
-                         
-                        </div>
-                      </div>
+            <div className={styles.homebtns}>
+              <Link href="/#about">
+                <Button className={styles.homebtn}>
+                  <a>ABOUT ME</a>
+                </Button>
+              </Link>
+              <Link href="/#projects">
+                <Button className={styles.homebtn}>
+                  <a>PROJECTS</a>
+                </Button>
+              </Link>
+            </div>
+          </div>
         </div>
       </motion.div>
       <About />
@@ -113,4 +113,3 @@ const style = {
   boxShadow: 23,
   p: 4,
 };
-
