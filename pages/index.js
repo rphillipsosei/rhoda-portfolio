@@ -38,7 +38,7 @@ export default function Home() {
 
         <Nav />
         <div className={styles.homecontents}>
-          <Grid container spacing={2} className={styles.textimage}>
+          {/* <Grid container spacing={2} className={styles.textimage}> */}
             <div className={styles.divcombiner}>
               <Grid lg={3.5} md={4.5} className={styles.leftsidehome}>
                 <Item>
@@ -77,7 +77,7 @@ export default function Home() {
                 </Item>
               </Grid>
             </div>
-          </Grid>
+          {/* </Grid> */}
           <div className={styles.btnrow}>
             <div className={styles.homebtns}>
               <Link href="/#about">
