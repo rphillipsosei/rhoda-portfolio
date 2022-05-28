@@ -79,7 +79,7 @@ export default function Home() {
             </div>
           {/* </Grid> */}
           <div className={styles.btnrow}>
-            <div className={styles.homebtns}>
+            {/* <div className={styles.homebtns}> */}
               <Link href="/#about">
                 <span className={styles.homebtn}>
                   <a>ABOUT ME</a>
@@ -90,7 +90,7 @@ export default function Home() {
                   <a>PROJECTS</a>
                 </span>
               </Link>
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </motion.div>
