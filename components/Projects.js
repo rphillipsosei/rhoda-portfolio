@@ -41,8 +41,9 @@ export default function Projects() {
       id="projects"
     >
       <div className={styles.projectcontainer}>
-        <div className={styles.projectsbox}>
-          <h1>PROJECTS</h1>
+         <h1>PROJECTS</h1>
+         <div className={styles.projectsbox}>
+         
           <div className={styles.cardrow}>
             {data.map((project, index) => {
               return (

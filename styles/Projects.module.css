@@ -19,6 +19,7 @@
   width: 1400px;
   display: flex;
   border-radius: 25px;
+  border-top: 3px solid white;
   border-bottom: 3px solid white;
   font-family: "Darker Grotesque", sans-serif;
   color: black;
@@ -29,7 +30,7 @@
   flex-direction: column;
 }
 
-.projectsbox h1 {
+.projectscontainer h1 {
   text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   color: white;
 }
@@ -247,6 +248,9 @@
     justify-content: flex-start;
     padding-top: 8rem;
   }
+  .projectcontainer h1{
+    margin-top: -1rem;
+  }
 
   .projectsbox {
     height: 600px;
@@ -254,17 +258,14 @@
     width: 96%;
   }
 
-  .cardrow {
-    margin-left: 1rem;
-  }
+
   .projectdesc {
     width: 240px;
     font-size: 14px
   }
-  .projectsbox h1 {
-    margin-top: -2rem;
-    margin-bottom: -3.5rem;
-    font-size: 30px;
+  .projectsbox {
+   height: 480px;
+   padding: 0;
   }
   .btnrownav {
     width: 300px;
@@ -282,7 +283,8 @@
   }
 
   .cardrow {
-    margin-top: 4rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
     width: 300px;
     height: 490px;
     display: flex;
