@@ -206,9 +206,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
-    scrollbar-width: thin;
   }
 
   .projectsbox h1 {
@@ -256,6 +255,8 @@
     height: 600px;
     margin-top: -1rem;
     width: 86%;
+    display: flex;
+   
   }
 
 
@@ -265,6 +266,7 @@
   }
   .projectsbox {
    height: 480px;
+   width: 290px;
    padding: 0;
   }
   .btnrownav {
@@ -283,8 +285,8 @@
   }
 
   .cardrow {
-    margin-right: 1rem;
-    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
     width: 300px;
     height: 490px;
     display: flex;
@@ -299,6 +301,11 @@
 
   .projectbuttons {
     margin-top: -0.5rem;
+  }
+
+  .btnrownav {
+    display: flex;
+    justify-content: center;
   }
 }
 
