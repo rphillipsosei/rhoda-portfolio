@@ -50,7 +50,7 @@ export default function Projects() {
                 <Card
                   key="index"
                   className={styles.cardcontainer}
-                  sx={{ maxWidth: 300, maxHeight: 450 }}
+                  sx={{ maxWidth: 300, maxHeight: 450, bgcolor: "rgba(255, 255, 255, 0.2)" }}
                 >
                   <Typography
                     align="center"
