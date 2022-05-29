@@ -65,7 +65,7 @@ export default function Projects() {
                     className={styles.democontainer}
                     component="img"
                     alt="green iguana"
-                    height="120"
+                    height="110"
                     image={project.image}
                   />
                   <CardContent>
