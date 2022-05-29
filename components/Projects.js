@@ -4,7 +4,6 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
 import Box from "@mui/material/Box";
@@ -166,7 +165,6 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  // width: 1000,
   bgcolor: "rgba(73, 80, 121, 0.9)",
   border: "2px solid #ffff",
   boxShadow: 24,
@@ -179,7 +177,6 @@ const style = {
   width: "92%",
   height: "80%",
   padding: "0.7rem",
-
 };
 
 const data = [

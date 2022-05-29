@@ -37,46 +37,40 @@ export default function Home() {
 
         <Nav />
         <div className={styles.homecontents}>
-          {/* <Grid container spacing={2} className={styles.textimage}> */}
-            <div className={styles.divcombiner}>
-              <Grid className={styles.leftsidehome}>
-                <Item>
-                  {/* <div className={styles.leftcontents} id="left-contents"> */}
-                    <div className={styles.textcontrol}>
-                      <div>
-                        <h1>Hi!</h1>
-                      
-                          My name is <b>Rhoda Phillips-Osei</b>, and I am a
-                          <b> Junior Full Stack Developer</b> with an extensive
-                          <b> people-based</b> background, living in
-                          <b> Toronto, Canada.
-                        </b>
-                        <br></br>
-                        <br></br>
-                      </div>
-                    </div>
-                  {/* </div> */}
-                </Item>
-              </Grid>
-              <Grid item  className={styles.rightsidehome}>
-                <Item>
-                  <div className={styles.rightcontents}>
-                    <div className={styles.imgcontainer}>
-                      <Image
-                        src="/01.webp"
-                        alt="Rhoda Phillips-Osei"
-                        className={styles.homeimg}
-                        width="100%"
-                        height="100%"
-                        layout="responsive"
-                        objectFit="contain"
-                      ></Image>
-                    </div>
+          <div className={styles.divcombiner}>
+            <Grid className={styles.leftsidehome}>
+              <Item>
+                <div className={styles.textcontrol}>
+                  <div>
+                    <h1>Hi!</h1>
+                    My name is <b>Rhoda Phillips-Osei</b>, and I am a
+                    <b> Junior Full Stack Developer</b> with an extensive
+                    <b> people-based</b> background, living in
+                    <b> Toronto, Canada.</b>
+                    <br></br>
+                    <br></br>
                   </div>
-                </Item>
-              </Grid>
-            </div>
-          {/* </Grid> */}
+                </div>
+              </Item>
+            </Grid>
+            <Grid item className={styles.rightsidehome}>
+              <Item>
+                <div className={styles.rightcontents}>
+                  <div className={styles.imgcontainer}>
+                    <Image
+                      src="/01.webp"
+                      alt="Rhoda Phillips-Osei"
+                      className={styles.homeimg}
+                      width="100%"
+                      height="100%"
+                      layout="responsive"
+                      objectFit="contain"
+                    ></Image>
+                  </div>
+                </div>
+              </Item>
+            </Grid>
+          </div>
           <div className={styles.btnrow}>
             <div className={styles.homebtns}>
               <Link href="/#about">
