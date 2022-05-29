@@ -77,7 +77,7 @@ export default function Projects() {
                     >
                       {project.description}
                      
-                      <u>STACK</u>
+                      <u>TECHNOLOGIES</u>
                       {project.technologies}
                     </Typography>
                   </CardContent>
@@ -165,7 +165,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  bgcolor: "rgba(73, 80, 121, 0.9)",
+  bgcolor: "rgba(158, 176, 159, 0.8)",
   border: "2px solid #ffff",
   boxShadow: 24,
   p: 4,
@@ -201,7 +201,7 @@ const data = [
     description: "Company website to be deployed soon.",
     technologies: "React, CSS, Material UI, Theme UI",
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
-    height: "600px",
+    height: "400px",
     width: "220px",
     id: "moonbeam",
     demo: "SEE DEMO",
