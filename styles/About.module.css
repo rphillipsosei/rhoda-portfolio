@@ -288,7 +288,7 @@ margin-top: 15rem;
     font-size: 11px;
     margin-top: 0rem;
     margin-right: 0;
-    height: 55%;
+    height: 50%;
     line-height: 13px;
   }
 
@@ -296,6 +296,7 @@ margin-top: 15rem;
     /* height: 20px; */
     font-size: 11px;
     /* line-height: 16px; */
+    margin-top: -0.5rem;
     padding-top: 2rem;
     height: 38%;
     line-height: 12.5px;
@@ -308,9 +309,9 @@ margin-top: 15rem;
   }
 
   .aboutbox {
-    height: 550px;
+    height: 520px;
     padding: 0 0.3rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .aboutbtn {
