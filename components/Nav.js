@@ -23,7 +23,7 @@ export default function Nav() {
   const handleClose = () => setOpen(false);
   return (
     <div role="presentation" onClick={handleClick} className={styles.iconcontainer}>
-    <Breadcrumbs aria-label="breadcrumb" className={styles.navcontents}>
+    <Breadcrumbs sx={{color: "white"}} aria-label="breadcrumb" className={styles.navcontents}>
     <Link
         underline="hover"
         sx={{ display: 'flex', alignItems: 'center', color: 

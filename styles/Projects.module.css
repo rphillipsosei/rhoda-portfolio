@@ -1,4 +1,4 @@
-.projectcontainer {
+.projectscontainer {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -7,15 +7,11 @@
   /* border: 3px solid blue; */
 }
 
-.projectscontents {
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .projectsbox {
 
   margin-top: 2rem;
-  height: 650px;
+  height: 480px;
   width: 1400px;
   display: flex;
   border-radius: 25px;
@@ -31,6 +27,7 @@
 }
 
 .projectscontainer h1 {
+
   text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   color: white;
 }
@@ -84,7 +81,6 @@
 .projectbtn {
   display: flex;
   align-items: center;
-  height: 20px;
   border-right: 2px solid white;
   border-left: 2px solid white;
   border-top: 3px solid transparent;
@@ -93,6 +89,7 @@
   color: white;
   cursor: pointer;
   padding: 0.2rem;
+  height: 100%;
 }
 
 .projectbtn:hover {
@@ -156,11 +153,12 @@
 .btnrownav {
   width: 100%;
   display: flex;
-  font-size: 15px;
   cursor: pointer;
   margin-top: 1rem;
   justify-content: center;
   flex-direction: row;
+
+
 }
 
 .projectbtnsnav {
@@ -199,7 +197,7 @@
   }
   .projectsbox {
     width: 90%;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
   }
 
   .cardrow {

@@ -40,7 +40,7 @@ export default function Projects() {
       className={styles.projectscontainer}
       id="projects"
     >
-      <div className={styles.projectcontainer}>
+    
          <h1>PROJECTS</h1>
          <div className={styles.projectsbox}>
          
@@ -154,7 +154,7 @@ export default function Projects() {
             <span className={styles.disabledbutton}>PROJECTS</span>
           </div>
         </div>
-      </div>
+
     </motion.div>
   );
 }

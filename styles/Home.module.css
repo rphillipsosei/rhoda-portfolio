@@ -5,14 +5,15 @@
   font-family: "Darker Grotesque", sans-serif;
   border-radius: 10px;
   color: black;
+  background-color: white;
 }
 
 .modaltitle {
   font-family: "Darker Grotesque", sans-serif;
   text-align: center;
   color: white;
-  font-size: 45px;
-  text-shadow: 0 0 1px salmon, 0 0 2px salmon, 0 0 2px salmon, 0 0 2px salmon;
+  font-size: 35px;
+  /* text-shadow: 0 0 1px salmon, 0 0 2px salmon, 0 0 2px salmon, 0 0 2px salmon; */
 }
 .divcombiner {
   display: flex;
@@ -147,11 +148,12 @@ width: 500px;
   width: 355px;
   justify-content: center;
   display: flex;
-  font-size: 15px;
+  font-size: 20px;
   cursor: pointer;
   height: 40px;
   align-items: center;
   margin-top: 0.5rem;
+
 }
 
 
