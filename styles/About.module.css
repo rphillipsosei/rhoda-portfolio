@@ -18,6 +18,7 @@
 .aboutbox {
 margin-top: 15rem;
   width: 1300px;
+  border-top: 3px solid white;
   border-bottom: 3px solid white;
   border-radius: 15px;
   height: 500px;
@@ -301,7 +302,7 @@ margin-top: 15rem;
   .skillstext {
     height: 220px;
     font-size: 11px;
-    line-height: 16px;
+    /* line-height: 16px; */
     padding-top: 2rem;
     height: 35%;
     line-height: 12.5px;
