@@ -50,7 +50,7 @@ export default function Projects() {
                 <Card
                   key="index"
                   className={styles.cardcontainer}
-                  sx={{ maxWidth: 300, maxHeight: 450, bgcolor: "rgba(255, 255, 255, 0.2)", color: "white" }}
+                  sx={{ maxWidth: 300, maxHeight: 450, bgcolor: "rgba(255, 255, 255, 0.2)", color: "white"}}
                 >
                   <Typography
                     align="center"
@@ -58,6 +58,7 @@ export default function Projects() {
                     variant="h5"
                     component="div"
                     className={styles.projecttitle}
+                    sx = {{fontFamily: "Darker Grotesque, sans-serif" }}
                   >
                     {project.title}
                   </Typography>
