@@ -7,7 +7,9 @@
   /* border: 3px solid blue; */
 }
 
-
+.democontainer {
+  height: 150px;
+}
 .projectsbox {
 
   margin-top: 2rem;
@@ -199,6 +201,11 @@
 }
 
 @media screen and (max-width: 1440px) {
+
+  .democontainer {
+    height: 140px;
+  }
+
   .projectcontainer {
     justify-content: flex-start;
   }
@@ -246,9 +253,15 @@
     border: 3px solid orange;
     width: 100%;
   }
+
+
 }
 
 @media screen and (max-width: 520px) {
+
+  .democontainer {
+    height: 110px;
+  }
   .projectcontainer {
     justify-content: flex-start;
     padding-top: 8rem;
