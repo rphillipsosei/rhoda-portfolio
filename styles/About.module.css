@@ -109,9 +109,10 @@ margin-top: 15rem;
   align-items: center;
   display: flex;
   font-family: "Darker Grotesque", sans-serif;
+  text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
 }
 
-.homebtn:hover {
+.aboutbtn:hover {
   border: 3px solid white;
   font-style: italic;
 }
@@ -149,6 +150,7 @@ margin-top: 15rem;
   margin-right: 0.5rem;
   align-items: center;
   font-family: "Darker Grotesque", sans-serif;
+  text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white;
 }
 
 .disabledbutton:hover {
