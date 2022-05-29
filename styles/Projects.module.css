@@ -250,8 +250,9 @@
     justify-content: flex-start;
     padding-top: 8rem;
   }
-  .projectcontainer h1{
-    margin-top: -4rem;
+  .projectscontainer h1{
+    margin-top: -2rem;
+    border: 1px solid blue
   }
 
   .projectsbox {

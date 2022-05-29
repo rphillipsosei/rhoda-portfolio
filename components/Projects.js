@@ -148,7 +148,7 @@ export default function Projects() {
           </Link> 
           
           <span className={styles.pagebtn}><a>ABOUT ME</a></span>
-          <Link href="/#projects">
+          <Link href="/#about">
             <span className={styles.disabledbutton}>
               <a>PROJECTS</a>
             </span>
