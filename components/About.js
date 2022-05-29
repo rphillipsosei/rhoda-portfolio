@@ -30,7 +30,7 @@ export default function Home() {
                    As a Junior Dev from a largely people-based background, I think to how I can
                   write more efficient code that peers can build upon and
                   manipulate. I think to learning what makes more scalable
-                  databases, and apps run as quickly and efficiently as possible. This is to say that I am always thinking about how my
+                  databases, and apps run as quickly and efficiently as possible. This is to say that I am always thinking about
                   improving and simplifying the experiences of others.
                   <br></br>
                   <br></br>
