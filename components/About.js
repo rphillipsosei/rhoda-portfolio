@@ -48,12 +48,12 @@ export default function Home() {
                   <br></br>
                   <i>Javascript (jQuery, AJAX, React, Next.js), HTML, CSS,
                   SCSS/SASS, MaterialUI, Bootstrap, React Bootstrap</i>
-                  <br></br>
+                 
                   <br></br>
                   <u>Back End Technologies</u>
                   <br></br>
                   <i>Javascript (Node.js, Express.js), Ruby, bCrpyt, PostgreSQL</i>
-                  <br></br>
+                 
                   <br></br>
                   <u>Auxiliary Technologies</u>
                   <br></br>
