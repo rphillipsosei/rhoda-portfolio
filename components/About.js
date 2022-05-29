@@ -15,9 +15,9 @@ export default function Home() {
         
             <div className={styles.biotext}>
              
-                  <br></br>
+                  
                   <b>Thanks for stopping by!</b>
-                  <br></br>
+                
                   <br></br>I come from a
                   professional background that includes work in Social Services,
                   Education, and Customer Service. After many years working

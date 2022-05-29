@@ -300,11 +300,11 @@ margin-top: 15rem;
   }
 
   .skillstext {
-    height: 220px;
+    /* height: 20px; */
     font-size: 11px;
     /* line-height: 16px; */
     padding-top: 2rem;
-    height: 35%;
+    height: 38%;
     line-height: 12.5px;
   }
 
@@ -315,7 +315,7 @@ margin-top: 15rem;
   }
 
   .aboutbox {
-    height: 500px;
+    height: 550px;
     padding: 0 0.3rem;
     /* margin-top: rem; */
   }
