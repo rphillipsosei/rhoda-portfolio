@@ -285,7 +285,7 @@ margin-top: 15rem;
 }
 @media screen and (max-width: 480px) {
   .biotext {
-    font-size: 11px;
+    font-size: 13px;
     margin-top: 0rem;
     margin-right: 0;
     height: 50%;
@@ -294,7 +294,7 @@ margin-top: 15rem;
 
   .skillstext {
     /* height: 20px; */
-    font-size: 11px;
+    font-size: 13px;
     /* line-height: 16px; */
     margin-top: -0.5rem;
     padding-top: 2rem;
