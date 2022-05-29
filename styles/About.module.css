@@ -66,11 +66,13 @@ margin-top: 15rem;
   padding: 2rem;
   color: white;
   /* line-height: 20px; */
-  /* border-bottom: 3px solid white; */
+  /* border: 3px solid hotpink; */
   /* width: 100%; */
   margin-right: 1rem;
+  padding: 0.5rem;
 }
 .skillstext {
+    /* border: 3px solid hotpink; */
   flex-direction: column;
   /* line-height: 20px; */
   font-size: 20px;
@@ -84,6 +86,7 @@ margin-top: 15rem;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 2rem;
   color: white;
+  padding: 0.5rem;
   /* border-bottom: 3px solid white; */
 }
 
@@ -288,14 +291,20 @@ margin-top: 15rem;
 }
 @media screen and (max-width: 480px) {
   .biotext {
-    height: 340px;
     font-size: 11px;
+    margin-top: 0rem;
+    margin-right: 0;
+    height: 55%;
+    line-height: 13px;
   }
 
   .skillstext {
     height: 220px;
     font-size: 11px;
     line-height: 16px;
+    padding-top: 2rem;
+    height: 35%;
+    line-height: 12.5px;
   }
 
   .aboutbox h1 {
@@ -305,27 +314,9 @@ margin-top: 15rem;
   }
 
   .aboutbox {
-    margin-top: 4rem;
-    height: 450px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .aboutbox {
     height: 500px;
-    margin-top: -3rem;
-  }
-  .biotext {
-    /* height: 60%; */
-    margin-top: 0rem;
-    margin-right: 0;
-    height: 60%;
-    line-height: 13px;
-  }
-
-  .skillstext {
-    padding-top: 2rem;
-    height: 30%;
-    line-height: 12.5px;
+    padding: 0 0.3rem;
+    /* margin-top: rem; */
   }
 }
+

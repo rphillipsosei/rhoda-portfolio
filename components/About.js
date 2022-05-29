@@ -27,15 +27,14 @@ export default function Home() {
                   and creativity.
                   <br></br>
                   <br></br>
-                  Being that I am from a largely people-based background, I feel
-                  I have a lot to offer. As a Junior Dev, I think to how I can
+                   As a Junior Dev from a largely people-based background, I think to how I can
                   write more efficient code that peers can build upon and
                   manipulate. I think to learning what makes more scalable
                   databases, and apps run as quickly and efficiently as possible. This is to say that I am always thinking about how my
-                  work can improve and simplify the experiences of others.
+                  improving and simplifying the experiences of others.
                   <br></br>
                   <br></br>
-                  To end things off on a less formal note, in my spare time I
+                  On a less formal note, in my spare time I
                   enjoy sewing, a good deadlift, and cat videos!
                   <br></br>
                   <br></br>
