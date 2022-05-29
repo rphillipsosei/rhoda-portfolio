@@ -348,7 +348,7 @@ width: 500px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .leftsidehome {
     font-size: 18px;
     /* max-height: 50%; */
@@ -367,8 +367,8 @@ width: 500px;
 
   .homebtn {
   
-    font-size: 12px;
-    width: 80px;
+    font-size: 13px;
+    width: 90px;
     height: 100%;
     margin-left: 0rem;
   }

@@ -92,22 +92,30 @@ margin-top: 15rem;
 }
 
 .aboutbtn {
+  height: 100%;
   font-weight: bold;
-  border-radius: 10px;
-  font-size: 15px;
+  border-radius: 7px;
+  font-size: 20px;
   border-left: 3px solid white;
   border-right: 3px solid white;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
   color: white;
   width: 120px;
-  display: flex;
+  margin-right: 0.5rem;
+  /* margin-left: 0.5rem; */
+  padding: 0px 10px;
+  height: 1rem;
+  /* display: flex; */
   justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
-.aboutbtn:hover {
+.homebtn:hover {
   border: 3px solid white;
-  border-bottom: 3px solid white;
+  font-style: italic;
 }
 
 .btnrow {
@@ -130,14 +138,19 @@ margin-top: 15rem;
   border-right: 3px solid #474646;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-radius: 10px;
-  font-size: 15px;
+  border-radius: 7px;
+  font-size: 20px;
   color: #474646;
   width: 120px;
   display: flex;
   justify-content: center;
   cursor: initial;
   font-weight: bold;
+  height: 100%;
+  padding: 0px 10px;
+  margin-right: 0.5rem;
+  align-items: center;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 .disabledbutton:hover {
@@ -257,34 +270,14 @@ margin-top: 15rem;
     margin-top: -0.8rem;
   }
 
-  .aboutbtn {
-    font-size: 12px;
-    width: 90px;
-    height: 80%;
-  }
 
-  .disabledbutton {
-    font-size: 12px;
-    width: 90px;
-    height: 80%;
-  }
 }
 
 @media screen and (max-width: 520px) {
   .btnrow {
     width: 300px;
   }
-  .aboutbtn {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  }
 
-  .disabledbutton {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  }
 
   .aboutbox {
     height: 400px;
@@ -317,7 +310,21 @@ margin-top: 15rem;
   .aboutbox {
     height: 550px;
     padding: 0 0.3rem;
-    /* margin-top: rem; */
+    margin-top: 1rem;
+  }
+
+  .aboutbtn {
+    font-size: 14px;
+    width: 80px;
+    height: 100%;
+    margin-left: 0rem;
+  }
+
+  .disabledbutton {
+    font-size: 13px;
+    width: 90px;
+    height: 100%;
+    /* margin-left: 0rem; */
   }
 }
 
