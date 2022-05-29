@@ -66,7 +66,7 @@ export default function Projects() {
                     className={styles.democontainer}
                     component="img"
                     alt="green iguana"
-                    height="110"
+                    height="150"
                     image={project.image}
                   />
                   <CardContent>
@@ -148,10 +148,10 @@ export default function Projects() {
           </Link> 
             <Link href="/#about">
             <span className={styles.pagebtn}>
-              <a>ABOUT</a>
+              <a>ABOUT ME</a>
             </span>
           </Link>
-          <span className={styles.disabledbutton}><a>ABOUT ME</a></span>
+          <span className={styles.disabledbutton}><a>PROJECTS</a></span>
         
          
         </div>
@@ -177,6 +177,7 @@ const style = {
   alignItems: "center",
   borderRadius: "15px",
   width: "92%",
+  height: "80%",
   padding: "0.7rem",
 
 };
@@ -203,7 +204,7 @@ const data = [
     description: "Company website to be deployed soon.",
     technologies: "React, CSS, Material UI, Theme UI",
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
-    height: "400px",
+    height: "600px",
     width: "220px",
     id: "moonbeam",
     demo: "SEE DEMO",

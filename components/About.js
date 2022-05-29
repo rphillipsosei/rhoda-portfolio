@@ -44,19 +44,16 @@ export default function Home() {
             <div className={styles.skillstext}>
              
                   <h3 align="center">SKILLS</h3>
-                  <u>Front End Technologies</u>
-                  <br></br>
-                  <i>Javascript (jQuery, AJAX, React, Next.js), HTML, CSS,
+                  <u>Front End Technologies:</u>
+                  <i>Javascript (jQuery, AJAX, React.js, Next.js), HTML, CSS,
                   SCSS/SASS, MaterialUI, Bootstrap, React Bootstrap</i>
                  
                   <br></br>
-                  <u>Back End Technologies</u>
-                  <br></br>
+                  <u>Back End Technologies:</u>
                   <i>Javascript (Node.js, Express.js), Ruby, bCrpyt, PostgreSQL</i>
                  
                   <br></br>
-                  <u>Auxiliary Technologies</u>
-                  <br></br>
+                  <u>Auxiliary Technologies:</u>
                   <i>Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux</i>
            
             </div>

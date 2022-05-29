@@ -35,7 +35,7 @@
 
 .cardcontainer {
   border-radius: 7px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(58, 57, 57, 0.3);
   font-family: "Darker Grotesque", sans-serif;
   color: white;
   display: flex;
@@ -118,6 +118,9 @@
   color: white;
 }
 
+.modaldemo {
+
+}
 .modaldesc {
   font-family: "Darker Grotesque", sans-serif;
   font-style: italic;
