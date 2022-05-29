@@ -92,7 +92,6 @@ margin-top: 15rem;
 }
 
 .aboutbtn {
-  height: 100%;
   font-weight: bold;
   border-radius: 7px;
   font-size: 20px;
@@ -105,7 +104,6 @@ margin-top: 15rem;
   margin-right: 0.5rem;
   /* margin-left: 0.5rem; */
   padding: 0px 10px;
-  height: 100%;
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -311,7 +309,7 @@ margin-top: 15rem;
   .aboutbox {
     height: 520px;
     padding: 0 0.3rem;
-    margin-top: -3rem;
+    margin-top: -1rem;
   }
 
   .aboutbtn {

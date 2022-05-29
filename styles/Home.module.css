@@ -118,7 +118,6 @@ width: 500px;
 }
 
 .homebtn {
-  height: 100%;
   font-weight: bold;
   border-radius: 7px;
   font-size: 20px;
@@ -131,11 +130,17 @@ width: 500px;
   margin-right: 0.5rem;
   /* margin-left: 0.5rem; */
   padding: 0px 10px;
-  height: 1rem;
   /* display: flex; */
   justify-content: center;
   align-items: center;
   display: flex;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.homebtns {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .homebtn:hover {
@@ -144,15 +149,13 @@ width: 500px;
 }
 
 .btnrow {
-  /* border: 3px solid teal; */
-  width: 355px;
-  justify-content: center;
+  /* flex-direction: row; */
+  width: 100%;
   display: flex;
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
-  height: 40px;
-  align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 1rem;
+  justify-content: center;
 
 }
 
@@ -348,6 +351,12 @@ width: 500px;
   .btnrow {
     /* margin-top: 0rem; */
   }
+}
+
+@media screen and (max-width: 520px) {
+  .btnrow {
+    width: 300px;
+}
 }
 
 @media screen and (max-width: 480px) {

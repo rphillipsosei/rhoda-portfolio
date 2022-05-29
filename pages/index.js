@@ -6,7 +6,6 @@ import Nav from "../components/Nav";
 import { motion } from "framer-motion";
 import Grid from "@mui/material/Grid";
 import Item from "@mui/material/Box";
-import Button from "@mui/material/Button";
 import Projects from "../components/Projects";
 import Link from "next/link";
 import About from "../components/About";
@@ -79,7 +78,7 @@ export default function Home() {
             </div>
           {/* </Grid> */}
           <div className={styles.btnrow}>
-            {/* <div className={styles.homebtns}> */}
+            <div className={styles.homebtns}>
               <Link href="/#about">
                 <span className={styles.homebtn}>
                   <a>ABOUT ME</a>
@@ -90,7 +89,7 @@ export default function Home() {
                   <a>PROJECTS</a>
                 </span>
               </Link>
-            {/* </div> */}
+            </div>
           </div>
         </div>
       </motion.div>

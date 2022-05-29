@@ -139,21 +139,23 @@ export default function Projects() {
             </Modal>
           )}
         </div>
-        <div className={styles.btnrownav}>
-          <div className={styles.projectbtnsnav}>
-            <Link href="/">
-              <span className={styles.projectbtnnav}>
-                <a> HOME</a>
-              </span>
-            </Link>
-            <Link href="/#about">
-              <span className={styles.projectbtnnav}>
-                <a>ABOUT ME</a>
-              </span>
-            </Link>
-            <span className={styles.disabledbutton}>PROJECTS</span>
-          </div>
+        <div className={styles.btnrow}>
+        <div className={styles.pagebtns}>
+          <Link href="/">
+            <span className={styles.pagebtn}>
+              <a>HOME</a>
+            </span>
+          </Link> 
+          
+          <span className={styles.pagebtn}><a>ABOUT ME</a></span>
+          <Link href="/#projects">
+            <span className={styles.disabledbutton}>
+              <a>PROJECTS</a>
+            </span>
+          </Link>
+         
         </div>
+      </div>
 
     </motion.div>
   );

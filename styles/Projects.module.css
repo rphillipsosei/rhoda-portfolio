@@ -22,6 +22,7 @@
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   padding: 2rem;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
 }
@@ -79,17 +80,23 @@
 }
 
 .projectbtn {
-  display: flex;
-  align-items: center;
-  border-right: 2px solid white;
-  border-left: 2px solid white;
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 11px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-radius: 5px;
   color: white;
-  cursor: pointer;
-  padding: 0.2rem;
-  height: 100%;
+  width: auto;
+  margin-right: 0.5rem;
+  /* margin-left: 0.5rem; */
+  padding: 0px 10px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 .projectbtn:hover {
@@ -123,8 +130,7 @@
 .modaltitle {
   text-align: center;
 }
-.projectbtnnav {
-  height: 100%;
+.pagebtn {
   font-weight: bold;
   border-radius: 7px;
   font-size: 20px;
@@ -137,7 +143,6 @@
   margin-right: 0.5rem;
   /* margin-left: 0.5rem; */
   padding: 0px 10px;
-  height: 1rem;
   /* display: flex; */
   justify-content: center;
   align-items: center;
@@ -150,18 +155,17 @@
   font-style: italic;
 }
 
-.btnrownav {
+.btnrow {
   width: 100%;
   display: flex;
+  font-size: 15px;
   cursor: pointer;
   margin-top: 1rem;
   justify-content: center;
-  flex-direction: row;
-
-
 }
 
-.projectbtnsnav {
+
+.pagebtns {
   width: 405px;
   display: flex;
   justify-content: space-between;
@@ -224,11 +228,11 @@
     height: 80%;
   }
 
-  .disabledbutton {
+  /* .disabledbutton {
     font-size: 12px;
     width: 90px;
     height: 80%;
-  }
+  } */
 
   .projectbtn {
     font-size: 10px;
@@ -268,20 +272,21 @@
    width: 290px;
    padding: 0;
   }
-  .btnrownav {
+  .btnrow {
     width: 300px;
   }
+
   .projectbtnnav {
     font-size: 10px;
     width: 80px;
     height: 80%;
   }
 
-  .disabledbutton {
+  /* .disabledbutton {
     font-size: 10px;
     width: 80px;
     height: 80%;
-  }
+  } */
 
   .cardrow {
     margin-left: 1rem;
@@ -302,11 +307,6 @@
     margin-top: -0.5rem;
   }
 
-  .btnrownav {
-    display: flex;
-    justify-content: center;
-    margin-left: 0.5rem;
-  }
 
   .projecttitle {
     font-size: 16px;
@@ -314,12 +314,13 @@
 }
 
 @media screen and (max-width: 480px) {
-  .projectbtnnav {
+  .pagebtn {
     font-size: 13px;
     width: 90px;
     height: 100%;
     margin-left: 0rem;
   }
+
   .disabledbutton {
     font-size: 13px;
     width: 90px;
