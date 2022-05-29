@@ -81,6 +81,9 @@
 }
 
 .projectbtn {
+  display: flex;
+  align-items: center;
+  height: 20px;
   border-right: 2px solid white;
   border-left: 2px solid white;
   border-top: 3px solid transparent;
@@ -88,6 +91,7 @@
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  padding: 0.2rem;
 }
 
 .projectbtn:hover {
@@ -122,17 +126,25 @@
   text-align: center;
 }
 .projectbtnnav {
+  height: 100%;
   font-weight: bold;
-  border-radius: 10px;
-  font-size: 15px;
+  border-radius: 7px;
+  font-size: 20px;
   border-left: 3px solid white;
   border-right: 3px solid white;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
   color: white;
   width: 120px;
-  display: flex;
+  margin-right: 0.5rem;
+  /* margin-left: 0.5rem; */
+  padding: 0px 10px;
+  height: 1rem;
+  /* display: flex; */
   justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 .projectbtnnav:hover {
@@ -157,18 +169,23 @@
 }
 
 .disabledbutton {
-  font-weight: bold;
   border-left: 3px solid #474646;
   border-right: 3px solid #474646;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
-  border-radius: 10px;
-  font-size: 15px;
+  border-radius: 7px;
+  font-size: 20px;
   color: #474646;
   width: 120px;
   display: flex;
   justify-content: center;
   cursor: initial;
+  font-weight: bold;
+  height: 100%;
+  padding: 0px 10px;
+  margin-right: 0.5rem;
+  align-items: center;
+  font-family: "Darker Grotesque", sans-serif;
 }
 
 .disabledbutton:hover {
@@ -241,7 +258,8 @@
     margin-left: 1rem;
   }
   .projectdesc {
-    width: 280px;
+    width: 240px;
+    font-size: 14px
   }
   .projectsbox h1 {
     margin-top: -2rem;
@@ -271,5 +289,24 @@
   }
   .modaldesc {
     font-size: 16px;
+  }
+
+  .cardcontainer {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projectbtnnav {
+    font-size: 13px;
+    width: 90px;
+    height: 100%;
+    margin-left: 0rem;
+  }
+  .disabledbutton {
+    font-size: 13px;
+    width: 90px;
+    height: 100%;
+    /* margin-left: 0rem; */
   }
 }

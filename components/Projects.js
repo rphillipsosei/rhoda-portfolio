@@ -64,7 +64,7 @@ export default function Projects() {
                     className={styles.democontainer}
                     component="img"
                     alt="green iguana"
-                    height="140"
+                    height="120"
                     image={project.image}
                   />
                   <CardContent>
@@ -81,19 +81,19 @@ export default function Projects() {
                   </CardContent>
                   <CardActions className={styles.projectbuttons}>
                     <Link href={project.github}>
-                      <Button className={styles.projectbtn} size="small">
+                      <span className={styles.projectbtn} size="small">
                         VIEW SOURCE CODE
-                      </Button>
+                      </span>
                     </Link>
 
                     {project.id !== "portfolio" ? (
-                      <Button
+                      <span
                         onClick={() => handleOpen(project)}
                         className={styles.projectbtn}
                         size="small"
                       >
                         {project.demo}
-                      </Button>
+                      </span>
                     ) : null}
                   </CardActions>
                 </Card>
@@ -139,16 +139,16 @@ export default function Projects() {
         <div className={styles.btnrownav}>
           <div className={styles.projectbtnsnav}>
             <Link href="/">
-              <Button className={styles.projectbtnnav}>
+              <span className={styles.projectbtnnav}>
                 <a> HOME</a>
-              </Button>
+              </span>
             </Link>
             <Link href="/#about">
-              <Button className={styles.projectbtnnav}>
+              <span className={styles.projectbtnnav}>
                 <a>ABOUT ME</a>
-              </Button>
+              </span>
             </Link>
-            <Button className={styles.disabledbutton}>PROJECTS</Button>
+            <span className={styles.disabledbutton}>PROJECTS</span>
           </div>
         </div>
       </div>
@@ -182,7 +182,7 @@ const data = [
     gif: "/tweeterdemo.gif",
     title: "Tweeter",
     description: "Clone of a particular social media app ;-)",
-    technologies: "Javascript, jQuery, AJAX, HTML, CSS",
+    technologies: "JS (jQuery, AJAX) HTML, CSS",
     github: "https://github.com/rphillipsosei/tweeter",
     height: "400px",
     width: "750px",
@@ -210,7 +210,7 @@ const data = [
     gif: "/tinyappdemo.gif",
     title: "TinyApp",
     description: "URL shortener for everyday websites.",
-    technologies: "Express, Node.js, bCrypt, EJS, Bootstrap",
+    technologies: "JS (Express, Node.js), bCrypt, EJS, Bootstrap",
     github: "https://github.com/rphillipsosei/tinyapp",
     height: "400px",
     width: "750px",
