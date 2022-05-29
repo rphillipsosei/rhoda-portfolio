@@ -146,13 +146,13 @@ export default function Projects() {
               <a>HOME</a>
             </span>
           </Link> 
-          
-          <span className={styles.pagebtn}><a>ABOUT ME</a></span>
-          <Link href="/#about">
-            <span className={styles.disabledbutton}>
-              <a>PROJECTS</a>
+            <Link href="/#about">
+            <span className={styles.pagebtn}>
+              <a>ABOUT</a>
             </span>
           </Link>
+          <span className={styles.disabledbutton}><a>ABOUT ME</a></span>
+        
          
         </div>
       </div>
