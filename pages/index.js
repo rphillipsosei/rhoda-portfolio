@@ -42,7 +42,7 @@ export default function Home() {
             <div className={styles.divcombiner}>
               <Grid className={styles.leftsidehome}>
                 <Item>
-                  <div className={styles.leftcontents} id="left-contents">
+                  {/* <div className={styles.leftcontents} id="left-contents"> */}
                     <div className={styles.textcontrol}>
                       <div>
                         <h1>Hi!</h1>
@@ -56,7 +56,7 @@ export default function Home() {
                         <br></br>
                       </div>
                     </div>
-                  </div>
+                  {/* </div> */}
                 </Item>
               </Grid>
               <Grid item  className={styles.rightsidehome}>

@@ -9,14 +9,12 @@ export default function Home() {
   return (
     <div className={styles.aboutcontainer} id="about">
       <div className={styles.aboutbox}>
-        <div className={styles.abouttitle}>
+        {/* <div className={styles.abouttitle}>
           <h1>ABOUT ME</h1>
-        </div>
-        <Grid container className={styles.aboutgrid}>
-          <Grid item lg={7.6} md={6}className={styles.bio}>
+        </div> */}
+        
             <div className={styles.biotext}>
-              <Item>
-                <div>
+             
                   <br></br>
                   <b>Thanks for stopping by!</b>
                   <br></br>
@@ -38,37 +36,32 @@ export default function Home() {
                   <br></br>
                   <br></br>
                   To end things off on a less formal note, in my spare time I
-                  enjoy sewing, a good deadlift, and cat videos 😊
+                  enjoy sewing, a good deadlift, and cat videos!
                   <br></br>
                   <br></br>
-                </div>
-              </Item>
+        
             </div>
-          </Grid>
-          <Grid item lg={4} md={3}className={styles.skills}>
+        
             <div className={styles.skillstext}>
-              <Item>
-                <div>
+             
                   <h3 align="center">SKILLS</h3>
                   <u>Front End Technologies</u>
                   <br></br>
-                  Javascript (jQuery, AJAX, React, Next.js), HTML, CSS,
-                  SCSS/SASS, MaterialUI, Bootstrap, React Bootstrap
+                  <i>Javascript (jQuery, AJAX, React, Next.js), HTML, CSS,
+                  SCSS/SASS, MaterialUI, Bootstrap, React Bootstrap</i>
                   <br></br>
                   <br></br>
                   <u>Back End Technologies</u>
                   <br></br>
-                  Javascript (Node.js, Express.js), Ruby, bCrpyt, PostgreSQL
+                  <i>Javascript (Node.js, Express.js), Ruby, bCrpyt, PostgreSQL</i>
                   <br></br>
                   <br></br>
                   <u>Auxiliary Technologies</u>
                   <br></br>
-                  Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux
-                </div>
-              </Item>
+                  <i>Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux</i>
+           
             </div>
-          </Grid>
-        </Grid>
+         
       </div>
       <div className={styles.btnrow}>
         <div className={styles.aboutbtns}>
