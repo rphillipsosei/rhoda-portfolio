@@ -213,7 +213,7 @@ const data = [
     gif: "/tinyappdemo.gif",
     title: "TinyApp",
     description: "URL shortener for everyday websites.",
-    technologies: "JS (Express, Node.js), bCrypt, EJS, Bootstrap",
+    technologies: "JS (Express, Node.js), bCrypt, Bootstrap",
     github: "https://github.com/rphillipsosei/tinyapp",
     height: "400px",
     width: "750px",
@@ -222,8 +222,7 @@ const data = [
     features: " User authentication, password encryption, cookie management.",
   },
   {
-    image: "/portfolio-thumbnail.png",
-    gif: "/tinyappdemo.gif",
+    image: "/portfolio-thumbnail.jpg",
     title: "Portfolio App",
     description: " For you to get to know more about me!",
     technologies: "React, NextJS, Material UI, Framer Motion",
