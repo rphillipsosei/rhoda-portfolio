@@ -164,7 +164,7 @@ const style = {
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
-  width: 1000,
+  // width: 1000,
   bgcolor: "rgba(73, 80, 121, 0.9)",
   border: "2px solid #ffff",
   boxShadow: 24,
@@ -174,7 +174,7 @@ const style = {
   flexDirection: "column",
   alignItems: "center",
   borderRadius: "15px",
-  width: "80%",
+  width: "92%",
   padding: "0.7rem",
 
 };

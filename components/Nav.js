@@ -11,6 +11,7 @@ import Modal from '@mui/material/Modal';
 import {useState} from 'react'
 import TextField from '@mui/material/TextField';
 
+
 function handleClick(event) {
   event.preventDefault();
 }
@@ -25,7 +26,8 @@ export default function Nav() {
     <Breadcrumbs aria-label="breadcrumb" className={styles.navcontents}>
     <Link
         underline="hover"
-        sx={{ display: 'flex', alignItems: 'center' }}
+        sx={{ display: 'flex', alignItems: 'center', color: 
+      "white" }}
         color="inherit"
         href="www.linkedin.com/in/rphillipsosei"
       >
@@ -34,7 +36,8 @@ export default function Nav() {
       </Link>
       <Link
         underline="hover"
-        sx={{ display: 'flex', alignItems: 'center' }}
+        sx={{ display: 'flex', alignItems: 'center', color: 
+        "white" }}
         color="inherit"
         href="www.github.com/rphillipsosei"
       >

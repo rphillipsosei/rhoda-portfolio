@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 
 .projectscontents {
@@ -206,7 +206,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: hidden;
   }
 
@@ -238,6 +238,7 @@
 }
 @media screen and (max-width: 1024px) {
   .popup {
+    border: 3px solid orange;
     width: 100%;
   }
 }
@@ -306,6 +307,7 @@
   .btnrownav {
     display: flex;
     justify-content: center;
+    margin-left: 0.5rem;
   }
 
   .projecttitle {

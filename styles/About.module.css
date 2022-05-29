@@ -4,16 +4,16 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
 }
 
-.abouttitle {
+/* .abouttitle {
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 1px black, 0 0 1px black;
   font-size: 22px;
   font-family: "Darker Grotesque", sans-serif;
   color: white;
   border: 3px solid red;
-}
+} */
 
 .aboutbox {
 margin-top: 15rem;

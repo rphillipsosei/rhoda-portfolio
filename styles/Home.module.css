@@ -295,7 +295,7 @@ width: 500px;
   }
 
   .divcombiner {
-    border: 3px solid orangered;
+    /* border: 3px solid orangered; */
     height: 600px;
   
     flex-direction: column;
