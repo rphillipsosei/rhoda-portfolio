@@ -74,6 +74,7 @@ export default function Projects() {
                       variant="body2"
                       color="text.secondary"
                       className={styles.projectdesc}
+                      sx = {{fontFamily: "Darker Grotesque, sans-serif", color: "white" }}
                     >
                       {project.description}
                      
