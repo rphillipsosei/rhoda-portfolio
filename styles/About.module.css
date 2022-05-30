@@ -212,11 +212,12 @@
     margin-right: 0;
     height: 55%;
     line-height: 13.5px;
+    padding-top: 0.3rem;
   }
 
   .skillstext {
     font-size: 14.5px;
-    margin-top: -0.5rem;
+    margin-top: -1rem;
     padding-top: 2rem;
     height: 40%;
     line-height: 13.5px;
