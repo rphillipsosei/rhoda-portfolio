@@ -207,17 +207,18 @@
   }
 
   .biotext {
+  padding-top: 0.5rem;
     font-size: 14.5px;
     margin-top: 0rem;
     margin-right: 0;
     height: 55%;
     line-height: 13.5px;
-    padding-top: 0.3rem;
   }
 
   .skillstext {
+    padding-bottom: 0.7rem;
     font-size: 14.5px;
-    margin-top: -1rem;
+    margin-top: -0.5rem;
     padding-top: 2rem;
     height: 40%;
     line-height: 13.5px;
