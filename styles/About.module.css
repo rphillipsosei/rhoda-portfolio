@@ -4,19 +4,10 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  /* border: 3px solid blue; */
 }
 
-/* .abouttitle {
-  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 1px black, 0 0 1px black;
-  font-size: 22px;
-  font-family: "Darker Grotesque", sans-serif;
-  color: white;
-  border: 3px solid red;
-} */
-
 .aboutbox {
-margin-top: 15rem;
+  margin-top: 15rem;
   width: 1300px;
   border-top: 3px solid white;
   border-bottom: 3px solid white;
@@ -27,31 +18,9 @@ margin-top: 15rem;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
   flex-direction: column;
-  /* border: 3px solid yellowgreen; */
   flex-direction: row;
   padding: 0 1rem;
 }
-
-/* .bio {
-  width: 30%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  padding-right: 0.5rem;
-  border: 3px solid hotpink;
-}
-
-.skills {
-  width: 30%;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding-left: 0.5rem;
-  margin-bottom: 2.5rem;
-  border: 3px solid hotpink;
-} */
 
 .biotext {
   flex-direction: column;
@@ -62,20 +31,14 @@ margin-top: 15rem;
   text-align: center;
   border-radius: 15px;
   height: 90%;
-  /* width: 50%; */
   background-color: rgba(58, 57, 57, 0.3);
   padding: 2rem;
   color: white;
-  /* line-height: 20px; */
-  /* border: 3px solid hotpink; */
-  /* width: 100%; */
   margin-right: 1rem;
   padding: 0.5rem;
 }
 .skillstext {
-    /* border: 3px solid hotpink; */
   flex-direction: column;
-  /* line-height: 20px; */
   font-size: 20px;
   display: flex;
   align-items: center;
@@ -88,33 +51,6 @@ margin-top: 15rem;
   padding: 2rem;
   color: white;
   padding: 0.5rem;
-  /* border-bottom: 3px solid white; */
-}
-
-.aboutbtn {
-  font-weight: bold;
-  border-radius: 7px;
-  font-size: 20px;
-  border-left: 3px solid white;
-  border-right: 3px solid white;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
-  color: white;
-  width: 120px;
-  margin-right: 0.5rem;
-  /* margin-left: 0.5rem; */
-  padding: 0px 10px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  font-family: "Darker Grotesque", sans-serif;
-  text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
-}
-
-.aboutbtn:hover {
-  border: 3px solid white;
-  font-style: italic;
 }
 
 .btnrow {
@@ -130,6 +66,30 @@ margin-top: 15rem;
   width: 405px;
   display: flex;
   justify-content: space-between;
+}
+
+.aboutbtn {
+  font-weight: bold;
+  border-radius: 7px;
+  font-size: 20px;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  color: white;
+  width: 120px;
+  margin-right: 0.5rem;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Darker Grotesque", sans-serif;
+  text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
+}
+
+.aboutbtn:hover {
+  border: 3px solid white;
+  font-style: italic;
 }
 
 .disabledbutton {
@@ -150,33 +110,13 @@ margin-top: 15rem;
   margin-right: 0.5rem;
   align-items: center;
   font-family: "Darker Grotesque", sans-serif;
-  text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white;
+  text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white,
+    0 0 0.5px white;
 }
 
 .disabledbutton:hover {
   background-color: transparent;
 }
-
-/* @media screen and (max-width: 1500px) {
-  .btnrow {
-    width: 300px;
-  }
-  .aboutbtn {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  }
-
-  .disabledbutton {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  }
-}
-
-.aboutbox {
-  /* margin-top: 0; */
-/* }  */
 
 @media screen and (max-width: 1280px) {
   .aboutcontainer {
@@ -188,15 +128,6 @@ margin-top: 15rem;
     height: 620px;
   }
 
-  .skills {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* .bio {
-    justify-content: center;
-  } */
   .biotext {
     font-size: 18px;
     width: 100%;
@@ -205,42 +136,25 @@ margin-top: 15rem;
     font-size: 16px;
     width: 100%;
   }
-  .aboutgrid {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 @media screen and (max-width: 1024px) {
   .aboutbox {
     width: 850px;
- 
   }
 }
 
 @media screen and (max-width: 899px) {
-
-
   .aboutbox {
     height: 600px;
     width: 90%;
     margin-top: -13rem;
     flex-direction: column;
-
-   
   }
-  .aboutgrid {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-
 
   .skillstext {
     height: 40%;
     font-size: 14px;
-    /* padding-top: -1rem; */
   }
 
   .biotext {
@@ -262,44 +176,28 @@ margin-top: 15rem;
   }
   .skillstext {
     height: 35%;
-    /* margin-top: 2rem; */
     font-size: 13px;
   }
 
   .skillstext h3 {
     margin-top: -0.8rem;
   }
-
-
 }
 
 @media screen and (max-width: 520px) {
-  .btnrow {
-    width: 300px;
-  }
-
-
   .aboutbox {
     height: 400px;
   }
+
+  .btnrow {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 480px) {
-  .biotext {
-    font-size: 13px;
-    margin-top: 0rem;
-    margin-right: 0;
-    height: 50%;
-    line-height: 13px;
-  }
-
-  .skillstext {
-    /* height: 20px; */
-    font-size: 13px;
-    /* line-height: 16px; */
-    margin-top: -0.5rem;
-    padding-top: 2rem;
-    height: 38%;
-    line-height: 12.5px;
+  .aboutbox {
+    height: 520px;
+    padding: 0 0.3rem;
+    margin-top: 2rem;
   }
 
   .aboutbox h1 {
@@ -308,10 +206,20 @@ margin-top: 15rem;
     margin-top: -0.3rem;
   }
 
-  .aboutbox {
-    height: 520px;
-    padding: 0 0.3rem;
-    margin-top: 2rem;
+  .biotext {
+    font-size: 16px;
+    margin-top: 0rem;
+    margin-right: 0;
+    height: 52%;
+    line-height: 13.5px;
+  }
+
+  .skillstext {
+    font-size: 16px;
+    margin-top: -0.5rem;
+    padding-top: 2rem;
+    height: 40%;
+    line-height: 13.5px;
   }
 
   .aboutbtn {
@@ -325,7 +233,5 @@ margin-top: 15rem;
     font-size: 13px;
     width: 90px;
     height: 100%;
-    /* margin-left: 0rem; */
   }
 }
-

@@ -58,7 +58,7 @@ export default function Home() {
                 <div className={styles.rightcontents}>
                   <div className={styles.imgcontainer}>
                     <Image
-                      src="/01.webp"
+                      src="/rhoda.webp"
                       alt="Rhoda Phillips-Osei"
                       className={styles.homeimg}
                       width="100%"
@@ -93,16 +93,4 @@ export default function Home() {
   );
 }
 
-const style = {
-  position: "absolute",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -50%)",
-  width: 1200,
-  height: "800px",
-  bgcolor: "background.paper",
-  border: "2px solid #ffff",
-  borderRadius: "10px",
-  boxShadow: 23,
-  p: 4,
-};
+

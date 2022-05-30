@@ -4,14 +4,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* border: 3px solid blue; */
 }
 
-.democontainer {
-  height: 150px;
+.projectscontainer h1 {
+  text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  color: white;
 }
 .projectsbox {
-
   margin-top: 2rem;
   height: 480px;
   width: 1400px;
@@ -29,10 +28,16 @@
   flex-direction: column;
 }
 
-.projectscontainer h1 {
+.democontainer {
+  height: 150px;
+}
 
-  text-shadow: 0 0 1px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
-  color: white;
+.cardrow {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .cardcontainer {
@@ -44,14 +49,6 @@
   flex-direction: column;
   align-items: center;
   width: 300px;
-}
-
-.cardrow {
-  margin-top: 3rem;
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: space-between;
 }
 
 .projecttitle {
@@ -92,23 +89,16 @@
   color: white;
   width: auto;
   margin-right: 0.5rem;
-  /* margin-left: 0.5rem; */
   padding: 0px 10px;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   display: flex;
   font-family: "Darker Grotesque", sans-serif;
-   /* text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black; */
 }
 
 .projectbtn:hover {
   border: 2px solid white;
   font-style: italic;
-}
-
-.projectbtn #portfolio {
-  display: none;
 }
 
 .modaltitle {
@@ -121,9 +111,6 @@
   color: white;
 }
 
-.modaldemo {
-
-}
 .modaldesc {
   font-family: "Darker Grotesque", sans-serif;
   font-style: italic;
@@ -136,6 +123,22 @@
 .modaltitle {
   text-align: center;
 }
+
+.btnrow {
+  width: 100%;
+  display: flex;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.pagebtns {
+  width: 405px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .pagebtn {
   font-weight: bold;
   border-radius: 7px;
@@ -147,9 +150,7 @@
   color: white;
   width: 120px;
   margin-right: 0.5rem;
-  /* margin-left: 0.5rem; */
   padding: 0px 10px;
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   display: flex;
@@ -158,29 +159,8 @@
 }
 
 .pagebtn:hover {
-    border: 2px solid white;
-    font-style: italic;
-}
-
-.projectbtnnav:hover {
-  border: 3px solid white;
+  border: 2px solid white;
   font-style: italic;
-}
-
-.btnrow {
-  width: 100%;
-  display: flex;
-  font-size: 15px;
-  cursor: pointer;
-  margin-top: 1rem;
-  justify-content: center;
-}
-
-
-.pagebtns {
-  width: 405px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .disabledbutton {
@@ -202,7 +182,8 @@
   align-items: center;
   font-family: "Darker Grotesque", sans-serif;
   text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 1px white, 0 0 1px white;
-  text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white;
+  text-shadow: 0 0 0.5px white, 0 0 0.5px white, 0 0 0.5px white,
+    0 0 0.5px white;
 }
 
 .disabledbutton:hover {
@@ -210,17 +191,18 @@
 }
 
 @media screen and (max-width: 1440px) {
-
-  .democontainer {
-    height: 140px;
-  }
-
   .projectcontainer {
     justify-content: flex-start;
   }
+
   .projectsbox {
     width: 90%;
-    /* margin-top: 7rem; */
+  }
+
+  .cardcontainer {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    width: 280px;
   }
 
   .cardrow {
@@ -231,27 +213,9 @@
     overflow-x: hidden;
   }
 
-  .projectsbox h1 {
-    margin-top: -1.5rem;
-    margin-bottom: -2rem;
+  .democontainer {
+    height: 140px;
   }
-  .cardcontainer {
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    width: 280px;
-  }
-
-  .projectbtnnav {
-    font-size: 12px;
-    width: 90px;
-    height: 80%;
-  }
-
-  /* .disabledbutton {
-    font-size: 12px;
-    width: 90px;
-    height: 80%;
-  } */
 
   .projectbtn {
     font-size: 10px;
@@ -262,58 +226,26 @@
     border: 3px solid orange;
     width: 100%;
   }
-
-
 }
 
 @media screen and (max-width: 520px) {
-
-  .democontainer {
-    height: 110px;
-  }
   .projectcontainer {
     justify-content: flex-start;
     padding-top: 8rem;
   }
-  .projectscontainer h1{
+  .projectscontainer h1 {
     margin-top: 0.5rem;
-    /* border: 1px solid blue */
   }
-
   .projectsbox {
     height: 600px;
     margin-top: -1rem;
     width: 90%;
     display: flex;
-   
   }
 
-
-  .projectdesc {
-    width: 240px;
-    font-size: 14px
+  .cardcontainer {
+    width: 230px;
   }
-  .projectsbox {
-   height: 480px;
-   width: 290px;
-   padding: 0;
-  }
-  .btnrow {
-    width: 300px;
-    margin-left: 0.5rem;
-  }
-
-  .projectbtnnav {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  }
-
-  /* .disabledbutton {
-    font-size: 10px;
-    width: 80px;
-    height: 80%;
-  } */
 
   .cardrow {
     margin-left: 1rem;
@@ -322,21 +254,26 @@
     height: 490px;
     display: flex;
   }
-  .modaldesc {
+
+  .projecttitle {
     font-size: 16px;
   }
 
-  .cardcontainer {
-    width: 230px;
+  .projectdesc {
+    width: 240px;
+    font-size: 14px;
   }
 
   .projectbuttons {
     margin-top: -0.5rem;
   }
 
-
-  .projecttitle {
+  .modaldesc {
     font-size: 16px;
+  }
+  .btnrow {
+    width: 300px;
+    margin-left: 0.5rem;
   }
 }
 
@@ -352,6 +289,5 @@
     font-size: 13px;
     width: 90px;
     height: 100%;
-    /* margin-left: 0rem; */
   }
 }
