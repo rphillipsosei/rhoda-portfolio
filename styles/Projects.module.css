@@ -95,11 +95,11 @@
   display: flex;
   font-family: "Darker Grotesque", sans-serif;
 }
-
+/* 
 .projectbtn:hover {
   border: 2px solid white;
   font-style: italic;
-}
+} */
 
 .modaltitle {
   line-height: 30px;
@@ -158,10 +158,10 @@
   text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
 }
 
-.pagebtn:hover {
+/* .pagebtn:hover {
   border: 2px solid white;
   font-style: italic;
-}
+} */
 
 .disabledbutton {
   border-left: 3px solid #474646;
@@ -186,9 +186,9 @@
     0 0 0.5px white;
 }
 
-.disabledbutton:hover {
+/* .disabledbutton:hover {
   background-color: transparent;
-}
+} */
 
 @media screen and (max-width: 1440px) {
   .projectcontainer {

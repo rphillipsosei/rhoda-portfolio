@@ -87,10 +87,10 @@
   text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
 }
 
-.aboutbtn:hover {
+/* .aboutbtn:hover {
   border: 3px solid white;
   font-style: italic;
-}
+} */
 
 .disabledbutton {
   border-left: 3px solid #474646;
@@ -114,9 +114,9 @@
     0 0 0.5px white;
 }
 
-.disabledbutton:hover {
+/* .disabledbutton:hover {
   background-color: transparent;
-}
+} */
 
 @media screen and (max-width: 1280px) {
   .aboutcontainer {

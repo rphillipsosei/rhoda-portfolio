@@ -132,10 +132,10 @@
   text-shadow: 0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black;
 }
 
-.homebtn:hover {
+/* .homebtn:hover {
   border: 3px solid white;
   font-style: italic;
-}
+} */
 
 .modaltitle {
   font-family: "Darker Grotesque", sans-serif;
