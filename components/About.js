@@ -49,18 +49,18 @@ export default function Home() {
       <div className={styles.btnrow}>
         <div className={styles.aboutbtns}>
           <Link href="/">
-            <span className={styles.aboutbtn}>
+            <button className={styles.aboutbtn}>
               <a>HOME</a>
-            </span>
+            </button>
           </Link>
 
-          <span className={styles.disabledbutton}>
+          <button className={styles.disabledbutton}>
             <a>ABOUT ME</a>
-          </span>
+          </button>
           <Link href="/#projects">
-            <span className={styles.aboutbtn}>
+            <button className={styles.aboutbtn}>
               <a>PROJECTS</a>
-            </span>
+            </button>
           </Link>
         </div>
       </div>
