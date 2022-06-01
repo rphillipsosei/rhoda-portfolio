@@ -94,3 +94,21 @@ export default function Home() {
 }
 
 
+const homebtn = {
+  fontWeight: "bold",
+  borderRadius: "7px",
+  fontSize: "20px",
+  borderLeft: "3px solid white",
+  borderRight: "3px solid white",
+  borderTop: "3px solid transparent",
+  borderBottom: "3px solid transparent",
+  color: "white",
+  width: "120px",
+  marginRight: "0.5rem",
+  padding: "0px 10px",
+  justifyContent: 'center',
+  alignItems: 'center',
+  display: "flex",
+  fontFamily: "Darker Grotesque, sans-serif",
+  textShadow: "0 0 0.5px black, 0 0 0.5px black, 0 0 1px black, 0 0 1px black"
+}
