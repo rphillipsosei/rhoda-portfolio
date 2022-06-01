@@ -83,19 +83,19 @@ export default function Projects() {
                   </CardContent>
                   <CardActions className={styles.projectbuttons}>
                     <Link href={project.github}>
-                      <button className={styles.projectbtn} size="small">
+                      <span className={styles.projectbtn} size="small">
                         VIEW SOURCE CODE
-                      </button>
+                      </span>
                     </Link>
 
                     {project.id !== "portfolio" ? (
-                      <button
+                      <span
                         onClick={() => handleOpen(project)}
                         className={styles.projectbtn}
                         size="small"
                       >
                         {project.demo}
-                      </button>
+                      </span>
                     ) : null}
                   </CardActions>
                 </Card>
@@ -141,16 +141,16 @@ export default function Projects() {
         <div className={styles.btnrow}>
         <div className={styles.pagebtns}>
           <Link href="/">
-            <button className={styles.pagebtn}>
+            <span className={styles.pagebtn}>
               <a>HOME</a>
-            </button>
+            </span>
           </Link> 
             <Link href="/#about">
-            <button className={styles.pagebtn}>
+            <span className={styles.pagebtn}>
               <a>ABOUT ME</a>
-            </button>
+            </span>
           </Link>
-          <button className={styles.disabledbutton}><a>PROJECTS</a></button>
+          <span className={styles.disabledbutton}><a>PROJECTS</a></span>
         
          
         </div>

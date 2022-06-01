@@ -74,14 +74,14 @@ export default function Home() {
           <div className={styles.btnrow}>
             <div className={styles.homebtns}>
               <Link href="/#about">
-                <button className={styles.homebtn}>
+                <span  className={styles.homebtn}>
                   <a>ABOUT ME</a>
-                </button>
+                </span>
               </Link>
               <Link href="/#projects">
-                <button className={styles.homebtn}>
+                <span className={styles.homebtn}>
                   <a>PROJECTS</a>
-                </button>
+                </span>
               </Link>
             </div>
           </div>
