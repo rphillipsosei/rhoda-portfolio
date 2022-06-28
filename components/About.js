@@ -34,7 +34,7 @@ export default function Home() {
           <u>Front End Technologies:</u>
           <i>
             Javascript (jQuery, AJAX, React.js, Next.js), HTML, CSS, SCSS/SASS,
-            MaterialUI, Bootstrap, React Bootstrap
+            MaterialUI, Bootstrap, React Bootstrap, Tailwind CSS
           </i>
 
           <br></br>
@@ -43,7 +43,7 @@ export default function Home() {
 
           <br></br>
           <u>Auxiliary Technologies:</u>
-          <i>Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux</i>
+          <i>Figma, Git, Mocha, Chai, Jest, Vercel, Microsoft, Linux</i>
         </div>
       </div>
       <div className={styles.btnrow}>
