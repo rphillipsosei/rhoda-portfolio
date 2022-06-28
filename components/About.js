@@ -34,7 +34,7 @@ export default function Home() {
           <u>Front End Technologies:</u>
           <i>
             Javascript (jQuery, AJAX, React.js, Next.js), HTML, CSS, SCSS/SASS,
-            MaterialUI, Bootstrap, React Bootstrap, Tailwind CSS
+            MaterialUI, Bootstrap, React Bootstrap, Tailwind CSS, Styled Components
           </i>
 
           <br></br>
