@@ -10,16 +10,6 @@ export default function Nav() {
   return (
     <div role="presentation"  className={styles.iconcontainer}>
     <Breadcrumbs sx={{color: "white"}} aria-label="breadcrumb" className={styles.navcontents}>
-    <Link
-        underline="hover"
-        sx={{ display: 'flex', alignItems: 'center', color: 
-      "white" }}
-        color="white"
-        href="https://www.linkedin.com/in/rphillipsosei"
-      >
-        <AiFillLinkedin className={styles.navicon} sx={{ mr: 0.5 }} fontSize="inherit" />
-        <b>LINKEDIN</b>
-      </Link>
       <Link
         underline="hover"
         sx={{ display: 'flex', alignItems: 'center', color: 
@@ -29,6 +19,16 @@ export default function Nav() {
       >
         <AiFillGithub className={styles.navicon} sx={{ mr: 0.5}} fontSize="inherit" />
         <b>GITHUB</b> 
+      </Link>
+    <Link
+        underline="hover"
+        sx={{ display: 'flex', alignItems: 'center', color: 
+      "white" }}
+        color="white"
+        href="https://www.linkedin.com/in/rphillipsosei"
+      >
+        <AiFillLinkedin className={styles.navicon} sx={{ mr: 0.5 }} fontSize="inherit" />
+        <b>LINKEDIN</b>
       </Link>
      
     </Breadcrumbs>   
