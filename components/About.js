@@ -24,7 +24,7 @@ export default function Home() {
           <br></br>
           <br></br>
           On a less formal note, in my spare time I enjoy sewing, a good
-          deadlift, and cat videos!
+          deadlift, and funny cat videos!
           <br></br>
           <br></br>
         </div>

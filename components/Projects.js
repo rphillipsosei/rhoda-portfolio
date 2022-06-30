@@ -64,7 +64,6 @@ export default function Projects() {
                   <CardMedia
                     className={styles.democontainer}
                     component="img"
-                    alt="green iguana"
                     height="110"
                     image={project.image}
                   />
@@ -198,15 +197,15 @@ const data = [
     image: "/moonbeam-thumbnail.png",
     gif: "/moonbeamdemo.gif",
     title: "Moonbeam Trading Company",
-    description: "Company website to be deployed soon.",
+    description: "First iteration of company website.",
     technologies: "React, CSS, Material UI, Theme UI",
     github: "https://github.com/rphillipsosei/moonbeam-tc/",
     height: "400px",
-    width: "220px",
+    width: "750px",
     id: "moonbeam",
     demo: "SEE DEMO",
     features:
-      "Message submissions for email and newsletter sign-up, job application form.",
+      "Message submissions directly to client email. Job board and direct-to-inbox job application submission to be developed in upcoming version",
   },
   {
     image: "/tinyapp-thumbnail.png",
