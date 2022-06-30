@@ -178,7 +178,21 @@ const style = {
   padding: "0.7rem",
 };
 
-const data = [
+const data = [  
+  {
+    image: "/moonbeam-thumbnail.png",
+    gif: "/moonbeamdemo.gif",
+    title: "Moonbeam Trading Company",
+    description: "First iteration of company website.",
+    technologies: "React.js, Styled-Components, FormSubmit, Framer-Motion",
+    github: "https://github.com/rphillipsosei/moonbeam-tc/",
+    height: "400px",
+    width: "750px",
+    id: "moonbeam",
+    demo: "SEE DEMO",
+    features:
+      "Direct-to-email contact page submissions via FormSubmit API. Job board and job application submission system to be implemented in next stage.",
+  },
   {
     image: "/tweeter-thumbnail.png",
     gif: "/tweeterdemo.gif",
@@ -193,20 +207,7 @@ const data = [
     features:
       "Character tracker, real-time tweet posting, conditional error messaging.",
   },
-  {
-    image: "/moonbeam-thumbnail.png",
-    gif: "/moonbeamdemo.gif",
-    title: "Moonbeam Trading Company",
-    description: "First iteration of company website.",
-    technologies: "React.js, Styled-Components, Framer-Motion",
-    github: "https://github.com/rphillipsosei/moonbeam-tc/",
-    height: "400px",
-    width: "750px",
-    id: "moonbeam",
-    demo: "SEE DEMO",
-    features:
-      "Message submissions directly to client email. Job board and direct-to-inbox job application submission to be developed in upcoming version",
-  },
+
   {
     image: "/tinyapp-thumbnail.png",
     gif: "/tinyappdemo.gif",
