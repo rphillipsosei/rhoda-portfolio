@@ -10,6 +10,7 @@ import Projects from "../components/Projects";
 import Link from "next/link";
 import About from "../components/About";
 
+
 export default function Home() {
   return (
     <div>
@@ -45,7 +46,7 @@ export default function Home() {
                     <h1>Hi!</h1>
                     My name is <b>Rhoda Phillips-Osei</b>, and I am a
                     <b> Junior Full Stack Developer</b> with an extensive
-                    <b> people-based</b> background, from
+                     background working closely with <b> people</b>, from
                     <b> Toronto, Canada.</b>
                     <br></br>
                     <br></br>
