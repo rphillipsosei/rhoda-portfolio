@@ -45,8 +45,8 @@ export default function Home() {
                   <div>
                     <h1>Hi!</h1>
                     My name is <b>Rhoda Phillips-Osei</b>, and I am a
-                    <b> Junior Full Stack Developer</b> with an extensive
-                     background working closely with <b> people</b>, from
+                    <b> Junior Full Stack Developer</b> with an extensive <b>people-based </b>
+                     background, from
                     <b> Toronto, Canada.</b>
                     <br></br>
                     <br></br>
