@@ -43,7 +43,7 @@ export default function Home() {
 
           <br></br>
           <u>Auxiliary Technologies:</u>
-          <i>Figma, Git, Mocha, Chai, Jest, Vercel, Linux</i>
+          <i>Git, Mocha, Chai, Jest, Vercel, Linux</i>
         </div>
       </div>
       <div className={styles.btnrow}>

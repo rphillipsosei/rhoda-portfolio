@@ -87,7 +87,7 @@ export default function Projects() {
                       </span>
                     </Link>
 
-                    {project.id !== "portfolio" ? (
+                    {project.id !== "portfolio" || project.id !== "stitch" ? (
                       <span
                         onClick={() => handleOpen(project)}
                         className={styles.projectbtn}
@@ -208,19 +208,19 @@ const data = [
       "Character tracker, real-time tweet posting, conditional error messaging.",
   },
 
-  {
-    image: "/tinyapp-thumbnail.png",
-    gif: "/tinyappdemo.gif",
-    title: "TinyApp",
-    description: "URL shortener for everyday websites.",
-    technologies: "Javascript (Express.js, Node.js), bCrypt, Bootstrap",
-    github: "https://github.com/rphillipsosei/tinyapp",
-    height: "400px",
-    width: "750px",
-    id: "tinyapp",
-    demo: "SEE DEMO",
-    features: " User authentication, password encryption, cookie management.",
-  },
+  // {
+  //   image: "/tinyapp-thumbnail.png",
+  //   gif: "/tinyappdemo.gif",
+  //   title: "TinyApp",
+  //   description: "URL shortener for everyday websites.",
+  //   technologies: "Javascript (Express.js, Node.js), bCrypt, Bootstrap",
+  //   github: "https://github.com/rphillipsosei/tinyapp",
+  //   height: "400px",
+  //   width: "750px",
+  //   id: "tinyapp",
+  //   demo: "SEE DEMO",
+  //   features: " User authentication, password encryption, cookie management.",
+  // },
   {
     image: "/portfolio-thumbnail.jpg",
     title: "Portfolio App",
@@ -230,5 +230,15 @@ const data = [
     height: "400px",
     width: "750px",
     id: "portfolio",
+  },
+  {
+    image: "/stitch-thumbnail.png",
+    title: "In Progress - Stitch",
+    description: "A marketplace for sewing products and services.",
+    technologies: "PostgreSQL, Express.js, React.js, Node.js",
+    github: "https://github.com/rphillipsosei/stitch",
+    height: "400px",
+    width: "750px",
+    id: "stitch",
   },
 ];
