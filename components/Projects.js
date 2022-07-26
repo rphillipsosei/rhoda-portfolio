@@ -87,7 +87,7 @@ export default function Projects() {
                       </span>
                     </Link>
 
-                    {project.id !== "portfolio" || project.id !== "stitch" ? (
+                    {project.id !== "no-demo" ? (
                       <span
                         onClick={() => handleOpen(project)}
                         className={styles.projectbtn}
@@ -225,20 +225,20 @@ const data = [
     image: "/portfolio-thumbnail.jpg",
     title: "Portfolio App",
     description: " For you to get to know more about me!",
-    technologies: "React.js, Next.js, Material UI, Framer Motion",
+    technologies: "Next.js, Material UI, Framer Motion",
     github: "https://github.com/rphillipsosei/rhoda-portfolio",
     height: "400px",
     width: "750px",
-    id: "portfolio",
+    id: "no-demo",
   },
   {
     image: "/stitch-thumbnail.png",
-    title: "In Progress - Stitch",
+    title: "Coming soon - Stitch",
     description: "A marketplace for sewing products and services.",
     technologies: "PostgreSQL, Express.js, React.js, Node.js",
     github: "https://github.com/rphillipsosei/stitch",
     height: "400px",
     width: "750px",
-    id: "stitch",
+    id: "no-demo",
   },
 ];
